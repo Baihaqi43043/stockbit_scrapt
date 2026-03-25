@@ -8,7 +8,30 @@
       "Bash(gh api:*)",
       "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(f[''''path'''']\\) for f in data]\")",
       "WebFetch(domain:api.stockbit.com)",
-      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root -e \"SELECT VERSION\\(\\);\")"
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root -e \"SELECT VERSION\\(\\);\")",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root -e \"USE stockbit_data; SHOW TABLES; DESCRIBE fundamental_data;\")",
+      "Bash(pip3 install:*)",
+      "Bash(python3 scripts/collect.py BUMI)",
+      "Bash(curl -s https://raw.githubusercontent.com/noczero/idx-fundamental-analysis/main/providers/stockbit.py)",
+      "Bash(curl -s https://raw.githubusercontent.com/noczero/idx-fundamental-analysis/main/services/stockbit_api_client.py)",
+      "Bash(curl -s https://api.github.com/repos/noczero/idx-fundamental-analysis/git/trees/main?recursive=1)",
+      "Bash(curl -s \"https://api.github.com/repos/noczero/idx-fundamental-analysis/branches\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/noczero/idx-fundamental-analysis/master/providers/stockbit.py\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/noczero/idx-fundamental-analysis/master/services/stockbit_api_client.py\")",
+      "Bash(/Users/rsudbireuen/Library/Python/3.9/bin/playwright install:*)",
+      "Bash(python3 src/token_fetcher.py)",
+      "Bash(python3 /Applications/XAMPP/xamppfiles/htdocs/stockbit_scrapt/src/token_fetcher.py)",
+      "Read(//Users/rsudbireuen/Library/Application Support/Google/Chrome/**)",
+      "Bash(pkill -x \"Google Chrome\")",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root stockbit_data -e \":*)",
+      "Bash(python3 -c \":*)",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root stockbit_data -e \"SELECT * FROM tickers;\")",
+      "Bash(python3 scripts/collect.py BUMI --price-only)",
+      "Bash(python3 scripts/collect.py BUMI --no-collect)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(echo \"rich>=13.0.0\")"
     ]
   }
 }
