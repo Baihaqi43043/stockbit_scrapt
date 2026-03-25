@@ -139,6 +139,48 @@ def show_historical_summary(hist_rows: list):
     console.print(Panel(t, title="[bold]Historical Quarterly (8 terakhir)[/bold]", border_style="cyan", padding=(0,1)))
 
 
+def show_dividend_panel(div_rows: list):
+    """Tampilkan riwayat dividen per tahun."""
+    if not div_rows:
+        return
+
+    t = Table(box=box.SIMPLE, show_header=True, header_style="bold dim")
+    t.add_column("Tahun",    style="dim", width=8)
+    t.add_column("DPS (IDR)", justify="right", width=14)
+    t.add_column("Ex-Date",  width=12)
+    t.add_column("Tipe",     width=10, style="dim")
+
+    for r in div_rows:
+        dps = r.get("dps")
+        dps_str = f"[green]{float(dps):,.2f}[/green]" if dps else "[dim]-[/dim]"
+        ex  = str(r.get("ex_date") or "-")[:10]
+        typ = str(r.get("div_type") or "-")
+        t.add_row(str(r.get("year", "-")), dps_str, ex, typ)
+
+    console.print(Panel(t, title="[bold]Riwayat Dividen[/bold]", border_style="cyan", padding=(0,1)))
+
+
+def show_news_panel(news_rows: list):
+    """Tampilkan berita terbaru."""
+    if not news_rows:
+        return
+
+    t = Table(box=box.SIMPLE, show_header=True, header_style="bold dim")
+    t.add_column("Tanggal",  style="dim", width=12)
+    t.add_column("Judul",    width=52)
+    t.add_column("Sumber",   style="dim", width=14)
+
+    for r in news_rows:
+        dt    = str(r.get("published_at") or "")[:10]
+        title = str(r.get("title") or "-")
+        if len(title) > 55:
+            title = title[:52] + "..."
+        src   = str(r.get("source") or "-")[:14]
+        t.add_row(dt, title, src)
+
+    console.print(Panel(t, title="[bold]Berita Terbaru[/bold]", border_style="blue", padding=(0,1)))
+
+
 # ─── Collect ─────────────────────────────────────────────────────────────────
 
 def collect(ticker: str):
@@ -147,12 +189,16 @@ def collect(ticker: str):
         get_latest_fundamental, get_historical_rows,
     )
     from src.collector.historical import save_historical
+    from src.collector.dividend  import fetch_dividend, save_dividend, get_dividend_rows
+    from src.collector.news      import fetch_news, save_news, get_news_rows
 
     console.print(f"\n[dim]Mengambil data [bold]{ticker}[/bold]...[/dim]")
 
     fund       = None
     price_data = None
     hist_rows  = []
+    div_rows   = []
+    news_rows  = []
 
     with console.status(f"[cyan]Fetching fundamental + historical {ticker}...[/cyan]", spinner="dots"):
         try:
@@ -181,6 +227,24 @@ def collect(ticker: str):
         except Exception as e:
             console.print(f"  [yellow]⚠ Price fetch gagal: {e}[/yellow]")
 
+    with console.status(f"[cyan]Fetching dividend {ticker}...[/cyan]", spinner="dots"):
+        try:
+            div_rows = fetch_dividend(ticker)
+            save_dividend(ticker, div_rows)
+            console.print(f"  [green]✓[/green] Dividen tersimpan ({len(div_rows)} baris)")
+        except Exception as e:
+            console.print(f"  [yellow]⚠ Dividend fetch gagal: {e}[/yellow]")
+            div_rows = get_dividend_rows(ticker)
+
+    with console.status(f"[cyan]Fetching news {ticker}...[/cyan]", spinner="dots"):
+        try:
+            news_rows = fetch_news(ticker)
+            save_news(ticker, news_rows)
+            console.print(f"  [green]✓[/green] Berita tersimpan ({len(news_rows)} artikel)")
+        except Exception as e:
+            console.print(f"  [yellow]⚠ News fetch gagal: {e}[/yellow]")
+            news_rows = get_news_rows(ticker)
+
     if not fund and not price_data:
         console.print(f"[red]✗ Tidak ada data untuk {ticker}. Pastikan kode emiten benar.[/red]")
         return
@@ -197,6 +261,10 @@ def collect(ticker: str):
         hist_rows = get_historical_rows(ticker)
         if hist_rows:
             show_historical_summary(hist_rows)
+    if div_rows:
+        show_dividend_panel(div_rows)
+    if news_rows:
+        show_news_panel(news_rows)
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
