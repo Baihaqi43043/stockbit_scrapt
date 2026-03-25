@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebSearch",
+      "Bash(gh api:*)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(f[''''path'''']\\) for f in data]\")",
+      "WebFetch(domain:api.stockbit.com)",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql -u root -e \"SELECT VERSION\\(\\);\")"
+    ]
+  }
+}
