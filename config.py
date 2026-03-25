@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Stockbit
-STOCKBIT_USERNAME   = os.getenv("baihaqi43043@gmail.com", "")
-STOCKBIT_PASSWORD   = os.getenv("Bai20112345", "")
-STOCKBIT_PLAYER_ID  = os.getenv("BaiHaqikun", "")
+STOCKBIT_USERNAME   = os.getenv("STOCKBIT_USERNAME", "")
+STOCKBIT_PASSWORD   = os.getenv("STOCKBIT_PASSWORD", "")
+STOCKBIT_PLAYER_ID  = os.getenv("STOCKBIT_PLAYER_ID", "")
 
 # Base URLs
 BASE_URL    = "https://exodus.stockbit.com"
