@@ -33,7 +33,9 @@
       "Bash(git commit:*)",
       "Bash(echo \"rich>=13.0.0\")",
       "Bash(echo \"POWR:*)",
-      "Bash(python3 cli.py)"
+      "Bash(python3 cli.py)",
+      "Bash(echo \"BBCA:*)",
+      "Bash(python3 /Applications/XAMPP/xamppfiles/htdocs/stockbit_scrapt/cli.py)"
     ]
   }
 }
