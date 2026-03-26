@@ -1,0 +1,8059 @@
+{
+  "message": "Successfully loaded tradebook data chart",
+  "data": {
+    "buy": [
+      {
+        "frequency": {
+          "raw": "465",
+          "formatted": "465"
+        },
+        "lot": {
+          "raw": "9776",
+          "formatted": "9,776"
+        },
+        "time": "09:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "792",
+          "formatted": "792"
+        },
+        "lot": {
+          "raw": "19532",
+          "formatted": "19,532"
+        },
+        "time": "09:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1008",
+          "formatted": "1,008"
+        },
+        "lot": {
+          "raw": "24204",
+          "formatted": "24,204"
+        },
+        "time": "09:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1161",
+          "formatted": "1,161"
+        },
+        "lot": {
+          "raw": "30265",
+          "formatted": "30,265"
+        },
+        "time": "09:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1398",
+          "formatted": "1,398"
+        },
+        "lot": {
+          "raw": "36019",
+          "formatted": "36,019"
+        },
+        "time": "09:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1628",
+          "formatted": "1,628"
+        },
+        "lot": {
+          "raw": "41719",
+          "formatted": "41,719"
+        },
+        "time": "09:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2155",
+          "formatted": "2,155"
+        },
+        "lot": {
+          "raw": "67070",
+          "formatted": "67,070"
+        },
+        "time": "09:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2286",
+          "formatted": "2,286"
+        },
+        "lot": {
+          "raw": "71400",
+          "formatted": "71,400"
+        },
+        "time": "09:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2435",
+          "formatted": "2,435"
+        },
+        "lot": {
+          "raw": "76036",
+          "formatted": "76,036"
+        },
+        "time": "09:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2569",
+          "formatted": "2,569"
+        },
+        "lot": {
+          "raw": "81875",
+          "formatted": "81,875"
+        },
+        "time": "09:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2654",
+          "formatted": "2,654"
+        },
+        "lot": {
+          "raw": "82842",
+          "formatted": "82,842"
+        },
+        "time": "09:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2780",
+          "formatted": "2,780"
+        },
+        "lot": {
+          "raw": "87108",
+          "formatted": "87,108"
+        },
+        "time": "09:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2875",
+          "formatted": "2,875"
+        },
+        "lot": {
+          "raw": "88497",
+          "formatted": "88,497"
+        },
+        "time": "09:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2957",
+          "formatted": "2,957"
+        },
+        "lot": {
+          "raw": "90659",
+          "formatted": "90,659"
+        },
+        "time": "09:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3031",
+          "formatted": "3,031"
+        },
+        "lot": {
+          "raw": "92907",
+          "formatted": "92,907"
+        },
+        "time": "09:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3092",
+          "formatted": "3,092"
+        },
+        "lot": {
+          "raw": "94594",
+          "formatted": "94,594"
+        },
+        "time": "09:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3152",
+          "formatted": "3,152"
+        },
+        "lot": {
+          "raw": "95351",
+          "formatted": "95,351"
+        },
+        "time": "09:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3210",
+          "formatted": "3,210"
+        },
+        "lot": {
+          "raw": "96261",
+          "formatted": "96,261"
+        },
+        "time": "09:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3238",
+          "formatted": "3,238"
+        },
+        "lot": {
+          "raw": "96467",
+          "formatted": "96,467"
+        },
+        "time": "09:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3268",
+          "formatted": "3,268"
+        },
+        "lot": {
+          "raw": "97713",
+          "formatted": "97,713"
+        },
+        "time": "09:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3296",
+          "formatted": "3,296"
+        },
+        "lot": {
+          "raw": "98091",
+          "formatted": "98,091"
+        },
+        "time": "09:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3317",
+          "formatted": "3,317"
+        },
+        "lot": {
+          "raw": "98502",
+          "formatted": "98,502"
+        },
+        "time": "09:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3390",
+          "formatted": "3,390"
+        },
+        "lot": {
+          "raw": "100723",
+          "formatted": "100,723"
+        },
+        "time": "09:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3421",
+          "formatted": "3,421"
+        },
+        "lot": {
+          "raw": "102663",
+          "formatted": "102,663"
+        },
+        "time": "09:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3435",
+          "formatted": "3,435"
+        },
+        "lot": {
+          "raw": "102788",
+          "formatted": "102,788"
+        },
+        "time": "09:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3446",
+          "formatted": "3,446"
+        },
+        "lot": {
+          "raw": "102851",
+          "formatted": "102,851"
+        },
+        "time": "09:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3474",
+          "formatted": "3,474"
+        },
+        "lot": {
+          "raw": "103148",
+          "formatted": "103,148"
+        },
+        "time": "09:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3496",
+          "formatted": "3,496"
+        },
+        "lot": {
+          "raw": "103433",
+          "formatted": "103,433"
+        },
+        "time": "09:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3509",
+          "formatted": "3,509"
+        },
+        "lot": {
+          "raw": "103476",
+          "formatted": "103,476"
+        },
+        "time": "09:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3597",
+          "formatted": "3,597"
+        },
+        "lot": {
+          "raw": "106321",
+          "formatted": "106,321"
+        },
+        "time": "09:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3614",
+          "formatted": "3,614"
+        },
+        "lot": {
+          "raw": "106467",
+          "formatted": "106,467"
+        },
+        "time": "09:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3632",
+          "formatted": "3,632"
+        },
+        "lot": {
+          "raw": "106913",
+          "formatted": "106,913"
+        },
+        "time": "09:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3660",
+          "formatted": "3,660"
+        },
+        "lot": {
+          "raw": "107704",
+          "formatted": "107,704"
+        },
+        "time": "09:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3704",
+          "formatted": "3,704"
+        },
+        "lot": {
+          "raw": "109967",
+          "formatted": "109,967"
+        },
+        "time": "09:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3782",
+          "formatted": "3,782"
+        },
+        "lot": {
+          "raw": "113251",
+          "formatted": "113,251"
+        },
+        "time": "09:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3822",
+          "formatted": "3,822"
+        },
+        "lot": {
+          "raw": "114251",
+          "formatted": "114,251"
+        },
+        "time": "09:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3858",
+          "formatted": "3,858"
+        },
+        "lot": {
+          "raw": "115388",
+          "formatted": "115,388"
+        },
+        "time": "09:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3873",
+          "formatted": "3,873"
+        },
+        "lot": {
+          "raw": "115445",
+          "formatted": "115,445"
+        },
+        "time": "09:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3884",
+          "formatted": "3,884"
+        },
+        "lot": {
+          "raw": "117335",
+          "formatted": "117,335"
+        },
+        "time": "09:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3913",
+          "formatted": "3,913"
+        },
+        "lot": {
+          "raw": "118890",
+          "formatted": "118,890"
+        },
+        "time": "09:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3919",
+          "formatted": "3,919"
+        },
+        "lot": {
+          "raw": "119290",
+          "formatted": "119,290"
+        },
+        "time": "09:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3926",
+          "formatted": "3,926"
+        },
+        "lot": {
+          "raw": "119322",
+          "formatted": "119,322"
+        },
+        "time": "09:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3929",
+          "formatted": "3,929"
+        },
+        "lot": {
+          "raw": "119426",
+          "formatted": "119,426"
+        },
+        "time": "09:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3936",
+          "formatted": "3,936"
+        },
+        "lot": {
+          "raw": "119524",
+          "formatted": "119,524"
+        },
+        "time": "09:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3957",
+          "formatted": "3,957"
+        },
+        "lot": {
+          "raw": "120495",
+          "formatted": "120,495"
+        },
+        "time": "09:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3965",
+          "formatted": "3,965"
+        },
+        "lot": {
+          "raw": "121159",
+          "formatted": "121,159"
+        },
+        "time": "09:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3970",
+          "formatted": "3,970"
+        },
+        "lot": {
+          "raw": "121424",
+          "formatted": "121,424"
+        },
+        "time": "09:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3980",
+          "formatted": "3,980"
+        },
+        "lot": {
+          "raw": "123323",
+          "formatted": "123,323"
+        },
+        "time": "09:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3987",
+          "formatted": "3,987"
+        },
+        "lot": {
+          "raw": "123559",
+          "formatted": "123,559"
+        },
+        "time": "09:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3999",
+          "formatted": "3,999"
+        },
+        "lot": {
+          "raw": "123714",
+          "formatted": "123,714"
+        },
+        "time": "09:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4002",
+          "formatted": "4,002"
+        },
+        "lot": {
+          "raw": "124225",
+          "formatted": "124,225"
+        },
+        "time": "09:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4009",
+          "formatted": "4,009"
+        },
+        "lot": {
+          "raw": "124833",
+          "formatted": "124,833"
+        },
+        "time": "09:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4031",
+          "formatted": "4,031"
+        },
+        "lot": {
+          "raw": "126111",
+          "formatted": "126,111"
+        },
+        "time": "09:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4073",
+          "formatted": "4,073"
+        },
+        "lot": {
+          "raw": "128091",
+          "formatted": "128,091"
+        },
+        "time": "09:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4083",
+          "formatted": "4,083"
+        },
+        "lot": {
+          "raw": "128123",
+          "formatted": "128,123"
+        },
+        "time": "09:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4094",
+          "formatted": "4,094"
+        },
+        "lot": {
+          "raw": "128807",
+          "formatted": "128,807"
+        },
+        "time": "09:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4107",
+          "formatted": "4,107"
+        },
+        "lot": {
+          "raw": "129348",
+          "formatted": "129,348"
+        },
+        "time": "09:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4116",
+          "formatted": "4,116"
+        },
+        "lot": {
+          "raw": "129485",
+          "formatted": "129,485"
+        },
+        "time": "09:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4148",
+          "formatted": "4,148"
+        },
+        "lot": {
+          "raw": "130670",
+          "formatted": "130,670"
+        },
+        "time": "09:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4168",
+          "formatted": "4,168"
+        },
+        "lot": {
+          "raw": "130846",
+          "formatted": "130,846"
+        },
+        "time": "09:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4216",
+          "formatted": "4,216"
+        },
+        "lot": {
+          "raw": "133745",
+          "formatted": "133,745"
+        },
+        "time": "10:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4233",
+          "formatted": "4,233"
+        },
+        "lot": {
+          "raw": "133817",
+          "formatted": "133,817"
+        },
+        "time": "10:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4254",
+          "formatted": "4,254"
+        },
+        "lot": {
+          "raw": "134529",
+          "formatted": "134,529"
+        },
+        "time": "10:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4292",
+          "formatted": "4,292"
+        },
+        "lot": {
+          "raw": "134963",
+          "formatted": "134,963"
+        },
+        "time": "10:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4367",
+          "formatted": "4,367"
+        },
+        "lot": {
+          "raw": "138389",
+          "formatted": "138,389"
+        },
+        "time": "10:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4384",
+          "formatted": "4,384"
+        },
+        "lot": {
+          "raw": "138492",
+          "formatted": "138,492"
+        },
+        "time": "10:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4417",
+          "formatted": "4,417"
+        },
+        "lot": {
+          "raw": "138821",
+          "formatted": "138,821"
+        },
+        "time": "10:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4486",
+          "formatted": "4,486"
+        },
+        "lot": {
+          "raw": "139805",
+          "formatted": "139,805"
+        },
+        "time": "10:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4506",
+          "formatted": "4,506"
+        },
+        "lot": {
+          "raw": "139986",
+          "formatted": "139,986"
+        },
+        "time": "10:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4567",
+          "formatted": "4,567"
+        },
+        "lot": {
+          "raw": "140815",
+          "formatted": "140,815"
+        },
+        "time": "10:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4590",
+          "formatted": "4,590"
+        },
+        "lot": {
+          "raw": "141052",
+          "formatted": "141,052"
+        },
+        "time": "10:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4609",
+          "formatted": "4,609"
+        },
+        "lot": {
+          "raw": "141327",
+          "formatted": "141,327"
+        },
+        "time": "10:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4629",
+          "formatted": "4,629"
+        },
+        "lot": {
+          "raw": "141835",
+          "formatted": "141,835"
+        },
+        "time": "10:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4645",
+          "formatted": "4,645"
+        },
+        "lot": {
+          "raw": "141878",
+          "formatted": "141,878"
+        },
+        "time": "10:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4659",
+          "formatted": "4,659"
+        },
+        "lot": {
+          "raw": "141982",
+          "formatted": "141,982"
+        },
+        "time": "10:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4669",
+          "formatted": "4,669"
+        },
+        "lot": {
+          "raw": "142087",
+          "formatted": "142,087"
+        },
+        "time": "10:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4685",
+          "formatted": "4,685"
+        },
+        "lot": {
+          "raw": "145999",
+          "formatted": "145,999"
+        },
+        "time": "10:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4698",
+          "formatted": "4,698"
+        },
+        "lot": {
+          "raw": "146088",
+          "formatted": "146,088"
+        },
+        "time": "10:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4718",
+          "formatted": "4,718"
+        },
+        "lot": {
+          "raw": "146251",
+          "formatted": "146,251"
+        },
+        "time": "10:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4738",
+          "formatted": "4,738"
+        },
+        "lot": {
+          "raw": "147504",
+          "formatted": "147,504"
+        },
+        "time": "10:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4776",
+          "formatted": "4,776"
+        },
+        "lot": {
+          "raw": "148353",
+          "formatted": "148,353"
+        },
+        "time": "10:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4800",
+          "formatted": "4,800"
+        },
+        "lot": {
+          "raw": "148455",
+          "formatted": "148,455"
+        },
+        "time": "10:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4837",
+          "formatted": "4,837"
+        },
+        "lot": {
+          "raw": "148990",
+          "formatted": "148,990"
+        },
+        "time": "10:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4890",
+          "formatted": "4,890"
+        },
+        "lot": {
+          "raw": "150218",
+          "formatted": "150,218"
+        },
+        "time": "10:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4908",
+          "formatted": "4,908"
+        },
+        "lot": {
+          "raw": "150391",
+          "formatted": "150,391"
+        },
+        "time": "10:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4925",
+          "formatted": "4,925"
+        },
+        "lot": {
+          "raw": "150481",
+          "formatted": "150,481"
+        },
+        "time": "10:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4933",
+          "formatted": "4,933"
+        },
+        "lot": {
+          "raw": "150507",
+          "formatted": "150,507"
+        },
+        "time": "10:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4941",
+          "formatted": "4,941"
+        },
+        "lot": {
+          "raw": "150529",
+          "formatted": "150,529"
+        },
+        "time": "10:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4955",
+          "formatted": "4,955"
+        },
+        "lot": {
+          "raw": "150693",
+          "formatted": "150,693"
+        },
+        "time": "10:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4963",
+          "formatted": "4,963"
+        },
+        "lot": {
+          "raw": "150751",
+          "formatted": "150,751"
+        },
+        "time": "10:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4975",
+          "formatted": "4,975"
+        },
+        "lot": {
+          "raw": "150959",
+          "formatted": "150,959"
+        },
+        "time": "10:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4986",
+          "formatted": "4,986"
+        },
+        "lot": {
+          "raw": "151022",
+          "formatted": "151,022"
+        },
+        "time": "10:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4993",
+          "formatted": "4,993"
+        },
+        "lot": {
+          "raw": "152049",
+          "formatted": "152,049"
+        },
+        "time": "10:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4998",
+          "formatted": "4,998"
+        },
+        "lot": {
+          "raw": "152833",
+          "formatted": "152,833"
+        },
+        "time": "10:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5011",
+          "formatted": "5,011"
+        },
+        "lot": {
+          "raw": "153036",
+          "formatted": "153,036"
+        },
+        "time": "10:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5025",
+          "formatted": "5,025"
+        },
+        "lot": {
+          "raw": "153164",
+          "formatted": "153,164"
+        },
+        "time": "10:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5046",
+          "formatted": "5,046"
+        },
+        "lot": {
+          "raw": "154203",
+          "formatted": "154,203"
+        },
+        "time": "10:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5064",
+          "formatted": "5,064"
+        },
+        "lot": {
+          "raw": "160538",
+          "formatted": "160,538"
+        },
+        "time": "10:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5075",
+          "formatted": "5,075"
+        },
+        "lot": {
+          "raw": "160567",
+          "formatted": "160,567"
+        },
+        "time": "10:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5085",
+          "formatted": "5,085"
+        },
+        "lot": {
+          "raw": "162579",
+          "formatted": "162,579"
+        },
+        "time": "10:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5093",
+          "formatted": "5,093"
+        },
+        "lot": {
+          "raw": "163538",
+          "formatted": "163,538"
+        },
+        "time": "10:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5107",
+          "formatted": "5,107"
+        },
+        "lot": {
+          "raw": "163886",
+          "formatted": "163,886"
+        },
+        "time": "10:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5117",
+          "formatted": "5,117"
+        },
+        "lot": {
+          "raw": "167803",
+          "formatted": "167,803"
+        },
+        "time": "10:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5126",
+          "formatted": "5,126"
+        },
+        "lot": {
+          "raw": "168736",
+          "formatted": "168,736"
+        },
+        "time": "10:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5132",
+          "formatted": "5,132"
+        },
+        "lot": {
+          "raw": "168852",
+          "formatted": "168,852"
+        },
+        "time": "10:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5140",
+          "formatted": "5,140"
+        },
+        "lot": {
+          "raw": "168889",
+          "formatted": "168,889"
+        },
+        "time": "10:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5149",
+          "formatted": "5,149"
+        },
+        "lot": {
+          "raw": "168996",
+          "formatted": "168,996"
+        },
+        "time": "10:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5164",
+          "formatted": "5,164"
+        },
+        "lot": {
+          "raw": "169410",
+          "formatted": "169,410"
+        },
+        "time": "10:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5176",
+          "formatted": "5,176"
+        },
+        "lot": {
+          "raw": "169445",
+          "formatted": "169,445"
+        },
+        "time": "10:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5184",
+          "formatted": "5,184"
+        },
+        "lot": {
+          "raw": "169488",
+          "formatted": "169,488"
+        },
+        "time": "10:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5190",
+          "formatted": "5,190"
+        },
+        "lot": {
+          "raw": "169518",
+          "formatted": "169,518"
+        },
+        "time": "10:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5200",
+          "formatted": "5,200"
+        },
+        "lot": {
+          "raw": "170080",
+          "formatted": "170,080"
+        },
+        "time": "10:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5209",
+          "formatted": "5,209"
+        },
+        "lot": {
+          "raw": "170106",
+          "formatted": "170,106"
+        },
+        "time": "10:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5222",
+          "formatted": "5,222"
+        },
+        "lot": {
+          "raw": "170165",
+          "formatted": "170,165"
+        },
+        "time": "10:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5233",
+          "formatted": "5,233"
+        },
+        "lot": {
+          "raw": "170269",
+          "formatted": "170,269"
+        },
+        "time": "10:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5251",
+          "formatted": "5,251"
+        },
+        "lot": {
+          "raw": "170951",
+          "formatted": "170,951"
+        },
+        "time": "10:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5269",
+          "formatted": "5,269"
+        },
+        "lot": {
+          "raw": "171052",
+          "formatted": "171,052"
+        },
+        "time": "10:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5283",
+          "formatted": "5,283"
+        },
+        "lot": {
+          "raw": "171128",
+          "formatted": "171,128"
+        },
+        "time": "10:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5294",
+          "formatted": "5,294"
+        },
+        "lot": {
+          "raw": "171169",
+          "formatted": "171,169"
+        },
+        "time": "10:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5300",
+          "formatted": "5,300"
+        },
+        "lot": {
+          "raw": "171254",
+          "formatted": "171,254"
+        },
+        "time": "10:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5310",
+          "formatted": "5,310"
+        },
+        "lot": {
+          "raw": "171692",
+          "formatted": "171,692"
+        },
+        "time": "11:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5322",
+          "formatted": "5,322"
+        },
+        "lot": {
+          "raw": "171944",
+          "formatted": "171,944"
+        },
+        "time": "11:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5334",
+          "formatted": "5,334"
+        },
+        "lot": {
+          "raw": "172777",
+          "formatted": "172,777"
+        },
+        "time": "11:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5347",
+          "formatted": "5,347"
+        },
+        "lot": {
+          "raw": "172868",
+          "formatted": "172,868"
+        },
+        "time": "11:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5359",
+          "formatted": "5,359"
+        },
+        "lot": {
+          "raw": "173023",
+          "formatted": "173,023"
+        },
+        "time": "11:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5376",
+          "formatted": "5,376"
+        },
+        "lot": {
+          "raw": "173107",
+          "formatted": "173,107"
+        },
+        "time": "11:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5387",
+          "formatted": "5,387"
+        },
+        "lot": {
+          "raw": "174273",
+          "formatted": "174,273"
+        },
+        "time": "11:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5398",
+          "formatted": "5,398"
+        },
+        "lot": {
+          "raw": "174374",
+          "formatted": "174,374"
+        },
+        "time": "11:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5409",
+          "formatted": "5,409"
+        },
+        "lot": {
+          "raw": "174548",
+          "formatted": "174,548"
+        },
+        "time": "11:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5421",
+          "formatted": "5,421"
+        },
+        "lot": {
+          "raw": "174643",
+          "formatted": "174,643"
+        },
+        "time": "11:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5433",
+          "formatted": "5,433"
+        },
+        "lot": {
+          "raw": "175095",
+          "formatted": "175,095"
+        },
+        "time": "11:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5441",
+          "formatted": "5,441"
+        },
+        "lot": {
+          "raw": "175193",
+          "formatted": "175,193"
+        },
+        "time": "11:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5449",
+          "formatted": "5,449"
+        },
+        "lot": {
+          "raw": "175824",
+          "formatted": "175,824"
+        },
+        "time": "11:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5477",
+          "formatted": "5,477"
+        },
+        "lot": {
+          "raw": "186116",
+          "formatted": "186,116"
+        },
+        "time": "11:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5502",
+          "formatted": "5,502"
+        },
+        "lot": {
+          "raw": "186844",
+          "formatted": "186,844"
+        },
+        "time": "11:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5539",
+          "formatted": "5,539"
+        },
+        "lot": {
+          "raw": "187759",
+          "formatted": "187,759"
+        },
+        "time": "11:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5565",
+          "formatted": "5,565"
+        },
+        "lot": {
+          "raw": "188452",
+          "formatted": "188,452"
+        },
+        "time": "11:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5739",
+          "formatted": "5,739"
+        },
+        "lot": {
+          "raw": "195656",
+          "formatted": "195,656"
+        },
+        "time": "11:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5758",
+          "formatted": "5,758"
+        },
+        "lot": {
+          "raw": "195956",
+          "formatted": "195,956"
+        },
+        "time": "11:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5792",
+          "formatted": "5,792"
+        },
+        "lot": {
+          "raw": "201532",
+          "formatted": "201,532"
+        },
+        "time": "11:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5820",
+          "formatted": "5,820"
+        },
+        "lot": {
+          "raw": "202730",
+          "formatted": "202,730"
+        },
+        "time": "11:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5830",
+          "formatted": "5,830"
+        },
+        "lot": {
+          "raw": "203063",
+          "formatted": "203,063"
+        },
+        "time": "11:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5844",
+          "formatted": "5,844"
+        },
+        "lot": {
+          "raw": "203995",
+          "formatted": "203,995"
+        },
+        "time": "11:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5857",
+          "formatted": "5,857"
+        },
+        "lot": {
+          "raw": "205024",
+          "formatted": "205,024"
+        },
+        "time": "11:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5876",
+          "formatted": "5,876"
+        },
+        "lot": {
+          "raw": "205553",
+          "formatted": "205,553"
+        },
+        "time": "11:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5925",
+          "formatted": "5,925"
+        },
+        "lot": {
+          "raw": "206263",
+          "formatted": "206,263"
+        },
+        "time": "11:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5956",
+          "formatted": "5,956"
+        },
+        "lot": {
+          "raw": "206501",
+          "formatted": "206,501"
+        },
+        "time": "11:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5978",
+          "formatted": "5,978"
+        },
+        "lot": {
+          "raw": "207193",
+          "formatted": "207,193"
+        },
+        "time": "11:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5990",
+          "formatted": "5,990"
+        },
+        "lot": {
+          "raw": "207311",
+          "formatted": "207,311"
+        },
+        "time": "11:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6052",
+          "formatted": "6,052"
+        },
+        "lot": {
+          "raw": "210589",
+          "formatted": "210,589"
+        },
+        "time": "11:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6066",
+          "formatted": "6,066"
+        },
+        "lot": {
+          "raw": "210665",
+          "formatted": "210,665"
+        },
+        "time": "11:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6076",
+          "formatted": "6,076"
+        },
+        "lot": {
+          "raw": "210794",
+          "formatted": "210,794"
+        },
+        "time": "11:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6094",
+          "formatted": "6,094"
+        },
+        "lot": {
+          "raw": "211235",
+          "formatted": "211,235"
+        },
+        "time": "11:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6111",
+          "formatted": "6,111"
+        },
+        "lot": {
+          "raw": "211381",
+          "formatted": "211,381"
+        },
+        "time": "11:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6123",
+          "formatted": "6,123"
+        },
+        "lot": {
+          "raw": "211708",
+          "formatted": "211,708"
+        },
+        "time": "11:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6154",
+          "formatted": "6,154"
+        },
+        "lot": {
+          "raw": "213215",
+          "formatted": "213,215"
+        },
+        "time": "11:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6202",
+          "formatted": "6,202"
+        },
+        "lot": {
+          "raw": "215651",
+          "formatted": "215,651"
+        },
+        "time": "11:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6231",
+          "formatted": "6,231"
+        },
+        "lot": {
+          "raw": "216416",
+          "formatted": "216,416"
+        },
+        "time": "11:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6255",
+          "formatted": "6,255"
+        },
+        "lot": {
+          "raw": "218288",
+          "formatted": "218,288"
+        },
+        "time": "11:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6284",
+          "formatted": "6,284"
+        },
+        "lot": {
+          "raw": "223962",
+          "formatted": "223,962"
+        },
+        "time": "11:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6291",
+          "formatted": "6,291"
+        },
+        "lot": {
+          "raw": "223986",
+          "formatted": "223,986"
+        },
+        "time": "11:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6300",
+          "formatted": "6,300"
+        },
+        "lot": {
+          "raw": "224045",
+          "formatted": "224,045"
+        },
+        "time": "11:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6317",
+          "formatted": "6,317"
+        },
+        "lot": {
+          "raw": "224166",
+          "formatted": "224,166"
+        },
+        "time": "11:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6324",
+          "formatted": "6,324"
+        },
+        "lot": {
+          "raw": "224181",
+          "formatted": "224,181"
+        },
+        "time": "11:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6329",
+          "formatted": "6,329"
+        },
+        "lot": {
+          "raw": "224259",
+          "formatted": "224,259"
+        },
+        "time": "11:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6347",
+          "formatted": "6,347"
+        },
+        "lot": {
+          "raw": "232611",
+          "formatted": "232,611"
+        },
+        "time": "11:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6354",
+          "formatted": "6,354"
+        },
+        "lot": {
+          "raw": "232649",
+          "formatted": "232,649"
+        },
+        "time": "11:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6361",
+          "formatted": "6,361"
+        },
+        "lot": {
+          "raw": "232683",
+          "formatted": "232,683"
+        },
+        "time": "11:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6371",
+          "formatted": "6,371"
+        },
+        "lot": {
+          "raw": "232827",
+          "formatted": "232,827"
+        },
+        "time": "11:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6379",
+          "formatted": "6,379"
+        },
+        "lot": {
+          "raw": "232860",
+          "formatted": "232,860"
+        },
+        "time": "11:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6389",
+          "formatted": "6,389"
+        },
+        "lot": {
+          "raw": "232883",
+          "formatted": "232,883"
+        },
+        "time": "11:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6399",
+          "formatted": "6,399"
+        },
+        "lot": {
+          "raw": "233028",
+          "formatted": "233,028"
+        },
+        "time": "11:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6409",
+          "formatted": "6,409"
+        },
+        "lot": {
+          "raw": "233186",
+          "formatted": "233,186"
+        },
+        "time": "11:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6416",
+          "formatted": "6,416"
+        },
+        "lot": {
+          "raw": "233241",
+          "formatted": "233,241"
+        },
+        "time": "11:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6442",
+          "formatted": "6,442"
+        },
+        "lot": {
+          "raw": "236494",
+          "formatted": "236,494"
+        },
+        "time": "11:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6451",
+          "formatted": "6,451"
+        },
+        "lot": {
+          "raw": "237648",
+          "formatted": "237,648"
+        },
+        "time": "11:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6561",
+          "formatted": "6,561"
+        },
+        "lot": {
+          "raw": "244794",
+          "formatted": "244,794"
+        },
+        "time": "11:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6574",
+          "formatted": "6,574"
+        },
+        "lot": {
+          "raw": "245343",
+          "formatted": "245,343"
+        },
+        "time": "11:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6582",
+          "formatted": "6,582"
+        },
+        "lot": {
+          "raw": "245913",
+          "formatted": "245,913"
+        },
+        "time": "11:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6594",
+          "formatted": "6,594"
+        },
+        "lot": {
+          "raw": "246479",
+          "formatted": "246,479"
+        },
+        "time": "11:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6695",
+          "formatted": "6,695"
+        },
+        "lot": {
+          "raw": "247247",
+          "formatted": "247,247"
+        },
+        "time": "13:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6718",
+          "formatted": "6,718"
+        },
+        "lot": {
+          "raw": "247456",
+          "formatted": "247,456"
+        },
+        "time": "13:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6796",
+          "formatted": "6,796"
+        },
+        "lot": {
+          "raw": "249188",
+          "formatted": "249,188"
+        },
+        "time": "13:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6957",
+          "formatted": "6,957"
+        },
+        "lot": {
+          "raw": "255277",
+          "formatted": "255,277"
+        },
+        "time": "13:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6975",
+          "formatted": "6,975"
+        },
+        "lot": {
+          "raw": "255429",
+          "formatted": "255,429"
+        },
+        "time": "13:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6987",
+          "formatted": "6,987"
+        },
+        "lot": {
+          "raw": "256250",
+          "formatted": "256,250"
+        },
+        "time": "13:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7003",
+          "formatted": "7,003"
+        },
+        "lot": {
+          "raw": "257311",
+          "formatted": "257,311"
+        },
+        "time": "13:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7044",
+          "formatted": "7,044"
+        },
+        "lot": {
+          "raw": "262867",
+          "formatted": "262,867"
+        },
+        "time": "13:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7084",
+          "formatted": "7,084"
+        },
+        "lot": {
+          "raw": "264679",
+          "formatted": "264,679"
+        },
+        "time": "13:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7104",
+          "formatted": "7,104"
+        },
+        "lot": {
+          "raw": "265375",
+          "formatted": "265,375"
+        },
+        "time": "13:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7153",
+          "formatted": "7,153"
+        },
+        "lot": {
+          "raw": "267191",
+          "formatted": "267,191"
+        },
+        "time": "13:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7166",
+          "formatted": "7,166"
+        },
+        "lot": {
+          "raw": "268091",
+          "formatted": "268,091"
+        },
+        "time": "13:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7222",
+          "formatted": "7,222"
+        },
+        "lot": {
+          "raw": "271037",
+          "formatted": "271,037"
+        },
+        "time": "13:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7231",
+          "formatted": "7,231"
+        },
+        "lot": {
+          "raw": "271110",
+          "formatted": "271,110"
+        },
+        "time": "13:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7279",
+          "formatted": "7,279"
+        },
+        "lot": {
+          "raw": "273874",
+          "formatted": "273,874"
+        },
+        "time": "13:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7295",
+          "formatted": "7,295"
+        },
+        "lot": {
+          "raw": "274270",
+          "formatted": "274,270"
+        },
+        "time": "13:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7326",
+          "formatted": "7,326"
+        },
+        "lot": {
+          "raw": "276885",
+          "formatted": "276,885"
+        },
+        "time": "13:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7349",
+          "formatted": "7,349"
+        },
+        "lot": {
+          "raw": "278233",
+          "formatted": "278,233"
+        },
+        "time": "13:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7419",
+          "formatted": "7,419"
+        },
+        "lot": {
+          "raw": "279484",
+          "formatted": "279,484"
+        },
+        "time": "13:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7469",
+          "formatted": "7,469"
+        },
+        "lot": {
+          "raw": "281184",
+          "formatted": "281,184"
+        },
+        "time": "13:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7533",
+          "formatted": "7,533"
+        },
+        "lot": {
+          "raw": "283285",
+          "formatted": "283,285"
+        },
+        "time": "13:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7551",
+          "formatted": "7,551"
+        },
+        "lot": {
+          "raw": "284404",
+          "formatted": "284,404"
+        },
+        "time": "13:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7559",
+          "formatted": "7,559"
+        },
+        "lot": {
+          "raw": "284636",
+          "formatted": "284,636"
+        },
+        "time": "13:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7619",
+          "formatted": "7,619"
+        },
+        "lot": {
+          "raw": "285650",
+          "formatted": "285,650"
+        },
+        "time": "13:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7623",
+          "formatted": "7,623"
+        },
+        "lot": {
+          "raw": "285656",
+          "formatted": "285,656"
+        },
+        "time": "13:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7633",
+          "formatted": "7,633"
+        },
+        "lot": {
+          "raw": "285709",
+          "formatted": "285,709"
+        },
+        "time": "13:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7639",
+          "formatted": "7,639"
+        },
+        "lot": {
+          "raw": "285743",
+          "formatted": "285,743"
+        },
+        "time": "13:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7656",
+          "formatted": "7,656"
+        },
+        "lot": {
+          "raw": "286028",
+          "formatted": "286,028"
+        },
+        "time": "13:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7666",
+          "formatted": "7,666"
+        },
+        "lot": {
+          "raw": "286211",
+          "formatted": "286,211"
+        },
+        "time": "13:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7773",
+          "formatted": "7,773"
+        },
+        "lot": {
+          "raw": "291277",
+          "formatted": "291,277"
+        },
+        "time": "13:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7785",
+          "formatted": "7,785"
+        },
+        "lot": {
+          "raw": "291767",
+          "formatted": "291,767"
+        },
+        "time": "14:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7836",
+          "formatted": "7,836"
+        },
+        "lot": {
+          "raw": "294129",
+          "formatted": "294,129"
+        },
+        "time": "14:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7844",
+          "formatted": "7,844"
+        },
+        "lot": {
+          "raw": "294237",
+          "formatted": "294,237"
+        },
+        "time": "14:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7857",
+          "formatted": "7,857"
+        },
+        "lot": {
+          "raw": "294326",
+          "formatted": "294,326"
+        },
+        "time": "14:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7879",
+          "formatted": "7,879"
+        },
+        "lot": {
+          "raw": "295466",
+          "formatted": "295,466"
+        },
+        "time": "14:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7890",
+          "formatted": "7,890"
+        },
+        "lot": {
+          "raw": "295746",
+          "formatted": "295,746"
+        },
+        "time": "14:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7986",
+          "formatted": "7,986"
+        },
+        "lot": {
+          "raw": "300827",
+          "formatted": "300,827"
+        },
+        "time": "14:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8019",
+          "formatted": "8,019"
+        },
+        "lot": {
+          "raw": "302898",
+          "formatted": "302,898"
+        },
+        "time": "14:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8026",
+          "formatted": "8,026"
+        },
+        "lot": {
+          "raw": "302950",
+          "formatted": "302,950"
+        },
+        "time": "14:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8039",
+          "formatted": "8,039"
+        },
+        "lot": {
+          "raw": "303173",
+          "formatted": "303,173"
+        },
+        "time": "14:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8048",
+          "formatted": "8,048"
+        },
+        "lot": {
+          "raw": "303404",
+          "formatted": "303,404"
+        },
+        "time": "14:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8055",
+          "formatted": "8,055"
+        },
+        "lot": {
+          "raw": "303558",
+          "formatted": "303,558"
+        },
+        "time": "14:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8065",
+          "formatted": "8,065"
+        },
+        "lot": {
+          "raw": "303688",
+          "formatted": "303,688"
+        },
+        "time": "14:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8068",
+          "formatted": "8,068"
+        },
+        "lot": {
+          "raw": "303700",
+          "formatted": "303,700"
+        },
+        "time": "14:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8116",
+          "formatted": "8,116"
+        },
+        "lot": {
+          "raw": "305687",
+          "formatted": "305,687"
+        },
+        "time": "14:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8129",
+          "formatted": "8,129"
+        },
+        "lot": {
+          "raw": "305860",
+          "formatted": "305,860"
+        },
+        "time": "14:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8136",
+          "formatted": "8,136"
+        },
+        "lot": {
+          "raw": "306340",
+          "formatted": "306,340"
+        },
+        "time": "14:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8141",
+          "formatted": "8,141"
+        },
+        "lot": {
+          "raw": "306419",
+          "formatted": "306,419"
+        },
+        "time": "14:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8152",
+          "formatted": "8,152"
+        },
+        "lot": {
+          "raw": "309062",
+          "formatted": "309,062"
+        },
+        "time": "14:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8160",
+          "formatted": "8,160"
+        },
+        "lot": {
+          "raw": "310213",
+          "formatted": "310,213"
+        },
+        "time": "14:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8246",
+          "formatted": "8,246"
+        },
+        "lot": {
+          "raw": "318043",
+          "formatted": "318,043"
+        },
+        "time": "14:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8263",
+          "formatted": "8,263"
+        },
+        "lot": {
+          "raw": "318147",
+          "formatted": "318,147"
+        },
+        "time": "14:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8296",
+          "formatted": "8,296"
+        },
+        "lot": {
+          "raw": "319116",
+          "formatted": "319,116"
+        },
+        "time": "14:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8310",
+          "formatted": "8,310"
+        },
+        "lot": {
+          "raw": "319258",
+          "formatted": "319,258"
+        },
+        "time": "14:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8321",
+          "formatted": "8,321"
+        },
+        "lot": {
+          "raw": "319590",
+          "formatted": "319,590"
+        },
+        "time": "14:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8343",
+          "formatted": "8,343"
+        },
+        "lot": {
+          "raw": "319725",
+          "formatted": "319,725"
+        },
+        "time": "14:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8483",
+          "formatted": "8,483"
+        },
+        "lot": {
+          "raw": "325783",
+          "formatted": "325,783"
+        },
+        "time": "14:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8520",
+          "formatted": "8,520"
+        },
+        "lot": {
+          "raw": "327485",
+          "formatted": "327,485"
+        },
+        "time": "14:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8526",
+          "formatted": "8,526"
+        },
+        "lot": {
+          "raw": "327536",
+          "formatted": "327,536"
+        },
+        "time": "14:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8535",
+          "formatted": "8,535"
+        },
+        "lot": {
+          "raw": "327733",
+          "formatted": "327,733"
+        },
+        "time": "14:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8546",
+          "formatted": "8,546"
+        },
+        "lot": {
+          "raw": "327864",
+          "formatted": "327,864"
+        },
+        "time": "14:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8557",
+          "formatted": "8,557"
+        },
+        "lot": {
+          "raw": "327920",
+          "formatted": "327,920"
+        },
+        "time": "14:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8601",
+          "formatted": "8,601"
+        },
+        "lot": {
+          "raw": "328974",
+          "formatted": "328,974"
+        },
+        "time": "14:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8625",
+          "formatted": "8,625"
+        },
+        "lot": {
+          "raw": "329216",
+          "formatted": "329,216"
+        },
+        "time": "14:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8715",
+          "formatted": "8,715"
+        },
+        "lot": {
+          "raw": "334051",
+          "formatted": "334,051"
+        },
+        "time": "14:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8736",
+          "formatted": "8,736"
+        },
+        "lot": {
+          "raw": "334444",
+          "formatted": "334,444"
+        },
+        "time": "14:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8748",
+          "formatted": "8,748"
+        },
+        "lot": {
+          "raw": "334907",
+          "formatted": "334,907"
+        },
+        "time": "14:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8757",
+          "formatted": "8,757"
+        },
+        "lot": {
+          "raw": "335043",
+          "formatted": "335,043"
+        },
+        "time": "14:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8769",
+          "formatted": "8,769"
+        },
+        "lot": {
+          "raw": "335233",
+          "formatted": "335,233"
+        },
+        "time": "14:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8773",
+          "formatted": "8,773"
+        },
+        "lot": {
+          "raw": "335335",
+          "formatted": "335,335"
+        },
+        "time": "14:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8790",
+          "formatted": "8,790"
+        },
+        "lot": {
+          "raw": "336114",
+          "formatted": "336,114"
+        },
+        "time": "14:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8794",
+          "formatted": "8,794"
+        },
+        "lot": {
+          "raw": "336242",
+          "formatted": "336,242"
+        },
+        "time": "14:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8804",
+          "formatted": "8,804"
+        },
+        "lot": {
+          "raw": "336824",
+          "formatted": "336,824"
+        },
+        "time": "14:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8839",
+          "formatted": "8,839"
+        },
+        "lot": {
+          "raw": "337592",
+          "formatted": "337,592"
+        },
+        "time": "14:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8866",
+          "formatted": "8,866"
+        },
+        "lot": {
+          "raw": "338038",
+          "formatted": "338,038"
+        },
+        "time": "14:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8880",
+          "formatted": "8,880"
+        },
+        "lot": {
+          "raw": "338152",
+          "formatted": "338,152"
+        },
+        "time": "14:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8885",
+          "formatted": "8,885"
+        },
+        "lot": {
+          "raw": "338358",
+          "formatted": "338,358"
+        },
+        "time": "14:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8891",
+          "formatted": "8,891"
+        },
+        "lot": {
+          "raw": "338461",
+          "formatted": "338,461"
+        },
+        "time": "14:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8959",
+          "formatted": "8,959"
+        },
+        "lot": {
+          "raw": "342633",
+          "formatted": "342,633"
+        },
+        "time": "14:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8974",
+          "formatted": "8,974"
+        },
+        "lot": {
+          "raw": "342916",
+          "formatted": "342,916"
+        },
+        "time": "14:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8987",
+          "formatted": "8,987"
+        },
+        "lot": {
+          "raw": "343068",
+          "formatted": "343,068"
+        },
+        "time": "14:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8998",
+          "formatted": "8,998"
+        },
+        "lot": {
+          "raw": "343250",
+          "formatted": "343,250"
+        },
+        "time": "14:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9034",
+          "formatted": "9,034"
+        },
+        "lot": {
+          "raw": "343975",
+          "formatted": "343,975"
+        },
+        "time": "14:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9133",
+          "formatted": "9,133"
+        },
+        "lot": {
+          "raw": "347370",
+          "formatted": "347,370"
+        },
+        "time": "14:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9160",
+          "formatted": "9,160"
+        },
+        "lot": {
+          "raw": "348486",
+          "formatted": "348,486"
+        },
+        "time": "14:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9186",
+          "formatted": "9,186"
+        },
+        "lot": {
+          "raw": "349378",
+          "formatted": "349,378"
+        },
+        "time": "14:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9307",
+          "formatted": "9,307"
+        },
+        "lot": {
+          "raw": "355462",
+          "formatted": "355,462"
+        },
+        "time": "14:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9346",
+          "formatted": "9,346"
+        },
+        "lot": {
+          "raw": "356630",
+          "formatted": "356,630"
+        },
+        "time": "14:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9384",
+          "formatted": "9,384"
+        },
+        "lot": {
+          "raw": "357529",
+          "formatted": "357,529"
+        },
+        "time": "14:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9417",
+          "formatted": "9,417"
+        },
+        "lot": {
+          "raw": "358772",
+          "formatted": "358,772"
+        },
+        "time": "14:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9456",
+          "formatted": "9,456"
+        },
+        "lot": {
+          "raw": "360680",
+          "formatted": "360,680"
+        },
+        "time": "15:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9471",
+          "formatted": "9,471"
+        },
+        "lot": {
+          "raw": "362114",
+          "formatted": "362,114"
+        },
+        "time": "15:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9497",
+          "formatted": "9,497"
+        },
+        "lot": {
+          "raw": "363212",
+          "formatted": "363,212"
+        },
+        "time": "15:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9528",
+          "formatted": "9,528"
+        },
+        "lot": {
+          "raw": "364413",
+          "formatted": "364,413"
+        },
+        "time": "15:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9644",
+          "formatted": "9,644"
+        },
+        "lot": {
+          "raw": "370569",
+          "formatted": "370,569"
+        },
+        "time": "15:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9687",
+          "formatted": "9,687"
+        },
+        "lot": {
+          "raw": "372055",
+          "formatted": "372,055"
+        },
+        "time": "15:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9717",
+          "formatted": "9,717"
+        },
+        "lot": {
+          "raw": "374410",
+          "formatted": "374,410"
+        },
+        "time": "15:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9754",
+          "formatted": "9,754"
+        },
+        "lot": {
+          "raw": "375953",
+          "formatted": "375,953"
+        },
+        "time": "15:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9793",
+          "formatted": "9,793"
+        },
+        "lot": {
+          "raw": "377409",
+          "formatted": "377,409"
+        },
+        "time": "15:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9827",
+          "formatted": "9,827"
+        },
+        "lot": {
+          "raw": "378686",
+          "formatted": "378,686"
+        },
+        "time": "15:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9845",
+          "formatted": "9,845"
+        },
+        "lot": {
+          "raw": "379841",
+          "formatted": "379,841"
+        },
+        "time": "15:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9861",
+          "formatted": "9,861"
+        },
+        "lot": {
+          "raw": "380809",
+          "formatted": "380,809"
+        },
+        "time": "15:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9880",
+          "formatted": "9,880"
+        },
+        "lot": {
+          "raw": "382067",
+          "formatted": "382,067"
+        },
+        "time": "15:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9915",
+          "formatted": "9,915"
+        },
+        "lot": {
+          "raw": "383206",
+          "formatted": "383,206"
+        },
+        "time": "15:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9956",
+          "formatted": "9,956"
+        },
+        "lot": {
+          "raw": "384211",
+          "formatted": "384,211"
+        },
+        "time": "15:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10063",
+          "formatted": "10,063"
+        },
+        "lot": {
+          "raw": "388545",
+          "formatted": "388,545"
+        },
+        "time": "15:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10119",
+          "formatted": "10,119"
+        },
+        "lot": {
+          "raw": "389544",
+          "formatted": "389,544"
+        },
+        "time": "15:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10162",
+          "formatted": "10,162"
+        },
+        "lot": {
+          "raw": "390282",
+          "formatted": "390,282"
+        },
+        "time": "15:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10207",
+          "formatted": "10,207"
+        },
+        "lot": {
+          "raw": "391123",
+          "formatted": "391,123"
+        },
+        "time": "15:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10241",
+          "formatted": "10,241"
+        },
+        "lot": {
+          "raw": "392281",
+          "formatted": "392,281"
+        },
+        "time": "15:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10292",
+          "formatted": "10,292"
+        },
+        "lot": {
+          "raw": "394561",
+          "formatted": "394,561"
+        },
+        "time": "15:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10332",
+          "formatted": "10,332"
+        },
+        "lot": {
+          "raw": "395448",
+          "formatted": "395,448"
+        },
+        "time": "15:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10366",
+          "formatted": "10,366"
+        },
+        "lot": {
+          "raw": "396403",
+          "formatted": "396,403"
+        },
+        "time": "15:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10427",
+          "formatted": "10,427"
+        },
+        "lot": {
+          "raw": "398385",
+          "formatted": "398,385"
+        },
+        "time": "15:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10538",
+          "formatted": "10,538"
+        },
+        "lot": {
+          "raw": "403814",
+          "formatted": "403,814"
+        },
+        "time": "15:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10580",
+          "formatted": "10,580"
+        },
+        "lot": {
+          "raw": "405378",
+          "formatted": "405,378"
+        },
+        "time": "15:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10617",
+          "formatted": "10,617"
+        },
+        "lot": {
+          "raw": "406455",
+          "formatted": "406,455"
+        },
+        "time": "15:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10641",
+          "formatted": "10,641"
+        },
+        "lot": {
+          "raw": "407401",
+          "formatted": "407,401"
+        },
+        "time": "15:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10690",
+          "formatted": "10,690"
+        },
+        "lot": {
+          "raw": "409254",
+          "formatted": "409,254"
+        },
+        "time": "15:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10742",
+          "formatted": "10,742"
+        },
+        "lot": {
+          "raw": "410307",
+          "formatted": "410,307"
+        },
+        "time": "15:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10753",
+          "formatted": "10,753"
+        },
+        "lot": {
+          "raw": "410913",
+          "formatted": "410,913"
+        },
+        "time": "15:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10783",
+          "formatted": "10,783"
+        },
+        "lot": {
+          "raw": "413620",
+          "formatted": "413,620"
+        },
+        "time": "15:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10821",
+          "formatted": "10,821"
+        },
+        "lot": {
+          "raw": "415742",
+          "formatted": "415,742"
+        },
+        "time": "15:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10871",
+          "formatted": "10,871"
+        },
+        "lot": {
+          "raw": "416782",
+          "formatted": "416,782"
+        },
+        "time": "15:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10917",
+          "formatted": "10,917"
+        },
+        "lot": {
+          "raw": "418126",
+          "formatted": "418,126"
+        },
+        "time": "15:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11020",
+          "formatted": "11,020"
+        },
+        "lot": {
+          "raw": "420994",
+          "formatted": "420,994"
+        },
+        "time": "15:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11054",
+          "formatted": "11,054"
+        },
+        "lot": {
+          "raw": "422507",
+          "formatted": "422,507"
+        },
+        "time": "15:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11119",
+          "formatted": "11,119"
+        },
+        "lot": {
+          "raw": "425791",
+          "formatted": "425,791"
+        },
+        "time": "15:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11149",
+          "formatted": "11,149"
+        },
+        "lot": {
+          "raw": "426531",
+          "formatted": "426,531"
+        },
+        "time": "15:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11196",
+          "formatted": "11,196"
+        },
+        "lot": {
+          "raw": "427548",
+          "formatted": "427,548"
+        },
+        "time": "15:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11224",
+          "formatted": "11,224"
+        },
+        "lot": {
+          "raw": "428463",
+          "formatted": "428,463"
+        },
+        "time": "15:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11331",
+          "formatted": "11,331"
+        },
+        "lot": {
+          "raw": "431954",
+          "formatted": "431,954"
+        },
+        "time": "15:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11415",
+          "formatted": "11,415"
+        },
+        "lot": {
+          "raw": "433976",
+          "formatted": "433,976"
+        },
+        "time": "15:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11479",
+          "formatted": "11,479"
+        },
+        "lot": {
+          "raw": "435397",
+          "formatted": "435,397"
+        },
+        "time": "15:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11584",
+          "formatted": "11,584"
+        },
+        "lot": {
+          "raw": "439033",
+          "formatted": "439,033"
+        },
+        "time": "15:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11637",
+          "formatted": "11,637"
+        },
+        "lot": {
+          "raw": "440992",
+          "formatted": "440,992"
+        },
+        "time": "15:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11677",
+          "formatted": "11,677"
+        },
+        "lot": {
+          "raw": "442563",
+          "formatted": "442,563"
+        },
+        "time": "15:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11738",
+          "formatted": "11,738"
+        },
+        "lot": {
+          "raw": "444395",
+          "formatted": "444,395"
+        },
+        "time": "15:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11842",
+          "formatted": "11,842"
+        },
+        "lot": {
+          "raw": "448076",
+          "formatted": "448,076"
+        },
+        "time": "15:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11908",
+          "formatted": "11,908"
+        },
+        "lot": {
+          "raw": "450455",
+          "formatted": "450,455"
+        },
+        "time": "15:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12010",
+          "formatted": "12,010"
+        },
+        "lot": {
+          "raw": "457471",
+          "formatted": "457,471"
+        },
+        "time": "16:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12010",
+          "formatted": "12,010"
+        },
+        "lot": {
+          "raw": "457471",
+          "formatted": "457,471"
+        },
+        "time": "16:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12055",
+          "formatted": "12,055"
+        },
+        "lot": {
+          "raw": "458988",
+          "formatted": "458,988"
+        },
+        "time": "16:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12060",
+          "formatted": "12,060"
+        },
+        "lot": {
+          "raw": "459130",
+          "formatted": "459,130"
+        },
+        "time": "16:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12065",
+          "formatted": "12,065"
+        },
+        "lot": {
+          "raw": "459153",
+          "formatted": "459,153"
+        },
+        "time": "16:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12068",
+          "formatted": "12,068"
+        },
+        "lot": {
+          "raw": "459189",
+          "formatted": "459,189"
+        },
+        "time": "16:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12072",
+          "formatted": "12,072"
+        },
+        "lot": {
+          "raw": "459219",
+          "formatted": "459,219"
+        },
+        "time": "16:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12077",
+          "formatted": "12,077"
+        },
+        "lot": {
+          "raw": "459287",
+          "formatted": "459,287"
+        },
+        "time": "16:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12082",
+          "formatted": "12,082"
+        },
+        "lot": {
+          "raw": "459297",
+          "formatted": "459,297"
+        },
+        "time": "16:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12091",
+          "formatted": "12,091"
+        },
+        "lot": {
+          "raw": "459478",
+          "formatted": "459,478"
+        },
+        "time": "16:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12091",
+          "formatted": "12,091"
+        },
+        "lot": {
+          "raw": "459478",
+          "formatted": "459,478"
+        },
+        "time": "16:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12093",
+          "formatted": "12,093"
+        },
+        "lot": {
+          "raw": "459487",
+          "formatted": "459,487"
+        },
+        "time": "16:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12096",
+          "formatted": "12,096"
+        },
+        "lot": {
+          "raw": "459500",
+          "formatted": "459,500"
+        },
+        "time": "16:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12099",
+          "formatted": "12,099"
+        },
+        "lot": {
+          "raw": "459512",
+          "formatted": "459,512"
+        },
+        "time": "16:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12104",
+          "formatted": "12,104"
+        },
+        "lot": {
+          "raw": "459534",
+          "formatted": "459,534"
+        },
+        "time": "16:14",
+        "value": null
+      }
+    ],
+    "sell": [
+      {
+        "frequency": {
+          "raw": "879",
+          "formatted": "879"
+        },
+        "lot": {
+          "raw": "16839",
+          "formatted": "16,839"
+        },
+        "time": "09:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "943",
+          "formatted": "943"
+        },
+        "lot": {
+          "raw": "19100",
+          "formatted": "19,100"
+        },
+        "time": "09:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "957",
+          "formatted": "957"
+        },
+        "lot": {
+          "raw": "19296",
+          "formatted": "19,296"
+        },
+        "time": "09:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1034",
+          "formatted": "1,034"
+        },
+        "lot": {
+          "raw": "24334",
+          "formatted": "24,334"
+        },
+        "time": "09:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1155",
+          "formatted": "1,155"
+        },
+        "lot": {
+          "raw": "29050",
+          "formatted": "29,050"
+        },
+        "time": "09:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1365",
+          "formatted": "1,365"
+        },
+        "lot": {
+          "raw": "41134",
+          "formatted": "41,134"
+        },
+        "time": "09:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1561",
+          "formatted": "1,561"
+        },
+        "lot": {
+          "raw": "69709",
+          "formatted": "69,709"
+        },
+        "time": "09:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1710",
+          "formatted": "1,710"
+        },
+        "lot": {
+          "raw": "79054",
+          "formatted": "79,054"
+        },
+        "time": "09:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "1934",
+          "formatted": "1,934"
+        },
+        "lot": {
+          "raw": "93636",
+          "formatted": "93,636"
+        },
+        "time": "09:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2164",
+          "formatted": "2,164"
+        },
+        "lot": {
+          "raw": "108052",
+          "formatted": "108,052"
+        },
+        "time": "09:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2527",
+          "formatted": "2,527"
+        },
+        "lot": {
+          "raw": "119677",
+          "formatted": "119,677"
+        },
+        "time": "09:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2679",
+          "formatted": "2,679"
+        },
+        "lot": {
+          "raw": "123068",
+          "formatted": "123,068"
+        },
+        "time": "09:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2737",
+          "formatted": "2,737"
+        },
+        "lot": {
+          "raw": "126760",
+          "formatted": "126,760"
+        },
+        "time": "09:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2747",
+          "formatted": "2,747"
+        },
+        "lot": {
+          "raw": "126974",
+          "formatted": "126,974"
+        },
+        "time": "09:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2764",
+          "formatted": "2,764"
+        },
+        "lot": {
+          "raw": "127112",
+          "formatted": "127,112"
+        },
+        "time": "09:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2816",
+          "formatted": "2,816"
+        },
+        "lot": {
+          "raw": "129186",
+          "formatted": "129,186"
+        },
+        "time": "09:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2827",
+          "formatted": "2,827"
+        },
+        "lot": {
+          "raw": "129525",
+          "formatted": "129,525"
+        },
+        "time": "09:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "2864",
+          "formatted": "2,864"
+        },
+        "lot": {
+          "raw": "131012",
+          "formatted": "131,012"
+        },
+        "time": "09:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3092",
+          "formatted": "3,092"
+        },
+        "lot": {
+          "raw": "139057",
+          "formatted": "139,057"
+        },
+        "time": "09:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3123",
+          "formatted": "3,123"
+        },
+        "lot": {
+          "raw": "140096",
+          "formatted": "140,096"
+        },
+        "time": "09:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3362",
+          "formatted": "3,362"
+        },
+        "lot": {
+          "raw": "148833",
+          "formatted": "148,833"
+        },
+        "time": "09:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3544",
+          "formatted": "3,544"
+        },
+        "lot": {
+          "raw": "153892",
+          "formatted": "153,892"
+        },
+        "time": "09:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3920",
+          "formatted": "3,920"
+        },
+        "lot": {
+          "raw": "165473",
+          "formatted": "165,473"
+        },
+        "time": "09:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "3994",
+          "formatted": "3,994"
+        },
+        "lot": {
+          "raw": "167395",
+          "formatted": "167,395"
+        },
+        "time": "09:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4059",
+          "formatted": "4,059"
+        },
+        "lot": {
+          "raw": "168666",
+          "formatted": "168,666"
+        },
+        "time": "09:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4129",
+          "formatted": "4,129"
+        },
+        "lot": {
+          "raw": "169602",
+          "formatted": "169,602"
+        },
+        "time": "09:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4199",
+          "formatted": "4,199"
+        },
+        "lot": {
+          "raw": "171937",
+          "formatted": "171,937"
+        },
+        "time": "09:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4249",
+          "formatted": "4,249"
+        },
+        "lot": {
+          "raw": "173884",
+          "formatted": "173,884"
+        },
+        "time": "09:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4277",
+          "formatted": "4,277"
+        },
+        "lot": {
+          "raw": "175330",
+          "formatted": "175,330"
+        },
+        "time": "09:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4291",
+          "formatted": "4,291"
+        },
+        "lot": {
+          "raw": "176196",
+          "formatted": "176,196"
+        },
+        "time": "09:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4306",
+          "formatted": "4,306"
+        },
+        "lot": {
+          "raw": "176496",
+          "formatted": "176,496"
+        },
+        "time": "09:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4318",
+          "formatted": "4,318"
+        },
+        "lot": {
+          "raw": "176869",
+          "formatted": "176,869"
+        },
+        "time": "09:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4681",
+          "formatted": "4,681"
+        },
+        "lot": {
+          "raw": "194479",
+          "formatted": "194,479"
+        },
+        "time": "09:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4713",
+          "formatted": "4,713"
+        },
+        "lot": {
+          "raw": "195478",
+          "formatted": "195,478"
+        },
+        "time": "09:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4740",
+          "formatted": "4,740"
+        },
+        "lot": {
+          "raw": "196037",
+          "formatted": "196,037"
+        },
+        "time": "09:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4833",
+          "formatted": "4,833"
+        },
+        "lot": {
+          "raw": "202182",
+          "formatted": "202,182"
+        },
+        "time": "09:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4860",
+          "formatted": "4,860"
+        },
+        "lot": {
+          "raw": "202796",
+          "formatted": "202,796"
+        },
+        "time": "09:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4911",
+          "formatted": "4,911"
+        },
+        "lot": {
+          "raw": "204030",
+          "formatted": "204,030"
+        },
+        "time": "09:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "4959",
+          "formatted": "4,959"
+        },
+        "lot": {
+          "raw": "205210",
+          "formatted": "205,210"
+        },
+        "time": "09:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5461",
+          "formatted": "5,461"
+        },
+        "lot": {
+          "raw": "218407",
+          "formatted": "218,407"
+        },
+        "time": "09:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5518",
+          "formatted": "5,518"
+        },
+        "lot": {
+          "raw": "219490",
+          "formatted": "219,490"
+        },
+        "time": "09:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5542",
+          "formatted": "5,542"
+        },
+        "lot": {
+          "raw": "220308",
+          "formatted": "220,308"
+        },
+        "time": "09:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5569",
+          "formatted": "5,569"
+        },
+        "lot": {
+          "raw": "221547",
+          "formatted": "221,547"
+        },
+        "time": "09:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5622",
+          "formatted": "5,622"
+        },
+        "lot": {
+          "raw": "222302",
+          "formatted": "222,302"
+        },
+        "time": "09:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5697",
+          "formatted": "5,697"
+        },
+        "lot": {
+          "raw": "224876",
+          "formatted": "224,876"
+        },
+        "time": "09:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5739",
+          "formatted": "5,739"
+        },
+        "lot": {
+          "raw": "226026",
+          "formatted": "226,026"
+        },
+        "time": "09:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5797",
+          "formatted": "5,797"
+        },
+        "lot": {
+          "raw": "228515",
+          "formatted": "228,515"
+        },
+        "time": "09:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5868",
+          "formatted": "5,868"
+        },
+        "lot": {
+          "raw": "230679",
+          "formatted": "230,679"
+        },
+        "time": "09:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5886",
+          "formatted": "5,886"
+        },
+        "lot": {
+          "raw": "231026",
+          "formatted": "231,026"
+        },
+        "time": "09:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5912",
+          "formatted": "5,912"
+        },
+        "lot": {
+          "raw": "231467",
+          "formatted": "231,467"
+        },
+        "time": "09:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5942",
+          "formatted": "5,942"
+        },
+        "lot": {
+          "raw": "232492",
+          "formatted": "232,492"
+        },
+        "time": "09:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "5965",
+          "formatted": "5,965"
+        },
+        "lot": {
+          "raw": "233196",
+          "formatted": "233,196"
+        },
+        "time": "09:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6106",
+          "formatted": "6,106"
+        },
+        "lot": {
+          "raw": "239996",
+          "formatted": "239,996"
+        },
+        "time": "09:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "6769",
+          "formatted": "6,769"
+        },
+        "lot": {
+          "raw": "268450",
+          "formatted": "268,450"
+        },
+        "time": "09:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7046",
+          "formatted": "7,046"
+        },
+        "lot": {
+          "raw": "275010",
+          "formatted": "275,010"
+        },
+        "time": "09:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7168",
+          "formatted": "7,168"
+        },
+        "lot": {
+          "raw": "278324",
+          "formatted": "278,324"
+        },
+        "time": "09:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7271",
+          "formatted": "7,271"
+        },
+        "lot": {
+          "raw": "280076",
+          "formatted": "280,076"
+        },
+        "time": "09:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7292",
+          "formatted": "7,292"
+        },
+        "lot": {
+          "raw": "280421",
+          "formatted": "280,421"
+        },
+        "time": "09:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7417",
+          "formatted": "7,417"
+        },
+        "lot": {
+          "raw": "282705",
+          "formatted": "282,705"
+        },
+        "time": "09:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7637",
+          "formatted": "7,637"
+        },
+        "lot": {
+          "raw": "301476",
+          "formatted": "301,476"
+        },
+        "time": "09:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7872",
+          "formatted": "7,872"
+        },
+        "lot": {
+          "raw": "309859",
+          "formatted": "309,859"
+        },
+        "time": "10:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7890",
+          "formatted": "7,890"
+        },
+        "lot": {
+          "raw": "310089",
+          "formatted": "310,089"
+        },
+        "time": "10:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7910",
+          "formatted": "7,910"
+        },
+        "lot": {
+          "raw": "310400",
+          "formatted": "310,400"
+        },
+        "time": "10:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7952",
+          "formatted": "7,952"
+        },
+        "lot": {
+          "raw": "312227",
+          "formatted": "312,227"
+        },
+        "time": "10:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7975",
+          "formatted": "7,975"
+        },
+        "lot": {
+          "raw": "312552",
+          "formatted": "312,552"
+        },
+        "time": "10:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "7996",
+          "formatted": "7,996"
+        },
+        "lot": {
+          "raw": "313105",
+          "formatted": "313,105"
+        },
+        "time": "10:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8006",
+          "formatted": "8,006"
+        },
+        "lot": {
+          "raw": "313159",
+          "formatted": "313,159"
+        },
+        "time": "10:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8010",
+          "formatted": "8,010"
+        },
+        "lot": {
+          "raw": "313176",
+          "formatted": "313,176"
+        },
+        "time": "10:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8021",
+          "formatted": "8,021"
+        },
+        "lot": {
+          "raw": "313375",
+          "formatted": "313,375"
+        },
+        "time": "10:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8036",
+          "formatted": "8,036"
+        },
+        "lot": {
+          "raw": "313747",
+          "formatted": "313,747"
+        },
+        "time": "10:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8045",
+          "formatted": "8,045"
+        },
+        "lot": {
+          "raw": "313781",
+          "formatted": "313,781"
+        },
+        "time": "10:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8224",
+          "formatted": "8,224"
+        },
+        "lot": {
+          "raw": "318829",
+          "formatted": "318,829"
+        },
+        "time": "10:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8596",
+          "formatted": "8,596"
+        },
+        "lot": {
+          "raw": "330651",
+          "formatted": "330,651"
+        },
+        "time": "10:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8697",
+          "formatted": "8,697"
+        },
+        "lot": {
+          "raw": "332273",
+          "formatted": "332,273"
+        },
+        "time": "10:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8747",
+          "formatted": "8,747"
+        },
+        "lot": {
+          "raw": "333437",
+          "formatted": "333,437"
+        },
+        "time": "10:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8753",
+          "formatted": "8,753"
+        },
+        "lot": {
+          "raw": "333456",
+          "formatted": "333,456"
+        },
+        "time": "10:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8811",
+          "formatted": "8,811"
+        },
+        "lot": {
+          "raw": "334194",
+          "formatted": "334,194"
+        },
+        "time": "10:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8814",
+          "formatted": "8,814"
+        },
+        "lot": {
+          "raw": "334296",
+          "formatted": "334,296"
+        },
+        "time": "10:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8820",
+          "formatted": "8,820"
+        },
+        "lot": {
+          "raw": "334307",
+          "formatted": "334,307"
+        },
+        "time": "10:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8827",
+          "formatted": "8,827"
+        },
+        "lot": {
+          "raw": "334347",
+          "formatted": "334,347"
+        },
+        "time": "10:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8832",
+          "formatted": "8,832"
+        },
+        "lot": {
+          "raw": "334377",
+          "formatted": "334,377"
+        },
+        "time": "10:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8874",
+          "formatted": "8,874"
+        },
+        "lot": {
+          "raw": "335150",
+          "formatted": "335,150"
+        },
+        "time": "10:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8882",
+          "formatted": "8,882"
+        },
+        "lot": {
+          "raw": "335209",
+          "formatted": "335,209"
+        },
+        "time": "10:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8893",
+          "formatted": "8,893"
+        },
+        "lot": {
+          "raw": "335562",
+          "formatted": "335,562"
+        },
+        "time": "10:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8925",
+          "formatted": "8,925"
+        },
+        "lot": {
+          "raw": "336067",
+          "formatted": "336,067"
+        },
+        "time": "10:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "8939",
+          "formatted": "8,939"
+        },
+        "lot": {
+          "raw": "336210",
+          "formatted": "336,210"
+        },
+        "time": "10:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9046",
+          "formatted": "9,046"
+        },
+        "lot": {
+          "raw": "337863",
+          "formatted": "337,863"
+        },
+        "time": "10:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9070",
+          "formatted": "9,070"
+        },
+        "lot": {
+          "raw": "338140",
+          "formatted": "338,140"
+        },
+        "time": "10:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9105",
+          "formatted": "9,105"
+        },
+        "lot": {
+          "raw": "338320",
+          "formatted": "338,320"
+        },
+        "time": "10:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9137",
+          "formatted": "9,137"
+        },
+        "lot": {
+          "raw": "338885",
+          "formatted": "338,885"
+        },
+        "time": "10:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9298",
+          "formatted": "9,298"
+        },
+        "lot": {
+          "raw": "341262",
+          "formatted": "341,262"
+        },
+        "time": "10:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9328",
+          "formatted": "9,328"
+        },
+        "lot": {
+          "raw": "341547",
+          "formatted": "341,547"
+        },
+        "time": "10:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9352",
+          "formatted": "9,352"
+        },
+        "lot": {
+          "raw": "342602",
+          "formatted": "342,602"
+        },
+        "time": "10:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9383",
+          "formatted": "9,383"
+        },
+        "lot": {
+          "raw": "343699",
+          "formatted": "343,699"
+        },
+        "time": "10:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9408",
+          "formatted": "9,408"
+        },
+        "lot": {
+          "raw": "344233",
+          "formatted": "344,233"
+        },
+        "time": "10:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9418",
+          "formatted": "9,418"
+        },
+        "lot": {
+          "raw": "344346",
+          "formatted": "344,346"
+        },
+        "time": "10:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9467",
+          "formatted": "9,467"
+        },
+        "lot": {
+          "raw": "344613",
+          "formatted": "344,613"
+        },
+        "time": "10:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9870",
+          "formatted": "9,870"
+        },
+        "lot": {
+          "raw": "355484",
+          "formatted": "355,484"
+        },
+        "time": "10:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9905",
+          "formatted": "9,905"
+        },
+        "lot": {
+          "raw": "357345",
+          "formatted": "357,345"
+        },
+        "time": "10:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9924",
+          "formatted": "9,924"
+        },
+        "lot": {
+          "raw": "358913",
+          "formatted": "358,913"
+        },
+        "time": "10:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9946",
+          "formatted": "9,946"
+        },
+        "lot": {
+          "raw": "360331",
+          "formatted": "360,331"
+        },
+        "time": "10:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9968",
+          "formatted": "9,968"
+        },
+        "lot": {
+          "raw": "360880",
+          "formatted": "360,880"
+        },
+        "time": "10:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "9986",
+          "formatted": "9,986"
+        },
+        "lot": {
+          "raw": "361853",
+          "formatted": "361,853"
+        },
+        "time": "10:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10019",
+          "formatted": "10,019"
+        },
+        "lot": {
+          "raw": "363171",
+          "formatted": "363,171"
+        },
+        "time": "10:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10041",
+          "formatted": "10,041"
+        },
+        "lot": {
+          "raw": "363500",
+          "formatted": "363,500"
+        },
+        "time": "10:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10068",
+          "formatted": "10,068"
+        },
+        "lot": {
+          "raw": "364624",
+          "formatted": "364,624"
+        },
+        "time": "10:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10089",
+          "formatted": "10,089"
+        },
+        "lot": {
+          "raw": "364995",
+          "formatted": "364,995"
+        },
+        "time": "10:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10107",
+          "formatted": "10,107"
+        },
+        "lot": {
+          "raw": "365325",
+          "formatted": "365,325"
+        },
+        "time": "10:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10119",
+          "formatted": "10,119"
+        },
+        "lot": {
+          "raw": "365511",
+          "formatted": "365,511"
+        },
+        "time": "10:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10212",
+          "formatted": "10,212"
+        },
+        "lot": {
+          "raw": "366897",
+          "formatted": "366,897"
+        },
+        "time": "10:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10247",
+          "formatted": "10,247"
+        },
+        "lot": {
+          "raw": "367179",
+          "formatted": "367,179"
+        },
+        "time": "10:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10312",
+          "formatted": "10,312"
+        },
+        "lot": {
+          "raw": "367857",
+          "formatted": "367,857"
+        },
+        "time": "10:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10352",
+          "formatted": "10,352"
+        },
+        "lot": {
+          "raw": "368033",
+          "formatted": "368,033"
+        },
+        "time": "10:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10397",
+          "formatted": "10,397"
+        },
+        "lot": {
+          "raw": "368394",
+          "formatted": "368,394"
+        },
+        "time": "10:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10430",
+          "formatted": "10,430"
+        },
+        "lot": {
+          "raw": "369464",
+          "formatted": "369,464"
+        },
+        "time": "10:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10471",
+          "formatted": "10,471"
+        },
+        "lot": {
+          "raw": "370520",
+          "formatted": "370,520"
+        },
+        "time": "10:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10484",
+          "formatted": "10,484"
+        },
+        "lot": {
+          "raw": "370756",
+          "formatted": "370,756"
+        },
+        "time": "10:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10513",
+          "formatted": "10,513"
+        },
+        "lot": {
+          "raw": "370975",
+          "formatted": "370,975"
+        },
+        "time": "10:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10519",
+          "formatted": "10,519"
+        },
+        "lot": {
+          "raw": "371050",
+          "formatted": "371,050"
+        },
+        "time": "10:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10540",
+          "formatted": "10,540"
+        },
+        "lot": {
+          "raw": "371217",
+          "formatted": "371,217"
+        },
+        "time": "10:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10591",
+          "formatted": "10,591"
+        },
+        "lot": {
+          "raw": "372005",
+          "formatted": "372,005"
+        },
+        "time": "11:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10635",
+          "formatted": "10,635"
+        },
+        "lot": {
+          "raw": "372468",
+          "formatted": "372,468"
+        },
+        "time": "11:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10652",
+          "formatted": "10,652"
+        },
+        "lot": {
+          "raw": "372716",
+          "formatted": "372,716"
+        },
+        "time": "11:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10694",
+          "formatted": "10,694"
+        },
+        "lot": {
+          "raw": "373178",
+          "formatted": "373,178"
+        },
+        "time": "11:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10729",
+          "formatted": "10,729"
+        },
+        "lot": {
+          "raw": "373632",
+          "formatted": "373,632"
+        },
+        "time": "11:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10746",
+          "formatted": "10,746"
+        },
+        "lot": {
+          "raw": "373789",
+          "formatted": "373,789"
+        },
+        "time": "11:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10820",
+          "formatted": "10,820"
+        },
+        "lot": {
+          "raw": "374462",
+          "formatted": "374,462"
+        },
+        "time": "11:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10862",
+          "formatted": "10,862"
+        },
+        "lot": {
+          "raw": "375042",
+          "formatted": "375,042"
+        },
+        "time": "11:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10870",
+          "formatted": "10,870"
+        },
+        "lot": {
+          "raw": "375187",
+          "formatted": "375,187"
+        },
+        "time": "11:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10908",
+          "formatted": "10,908"
+        },
+        "lot": {
+          "raw": "375881",
+          "formatted": "375,881"
+        },
+        "time": "11:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10922",
+          "formatted": "10,922"
+        },
+        "lot": {
+          "raw": "376092",
+          "formatted": "376,092"
+        },
+        "time": "11:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10946",
+          "formatted": "10,946"
+        },
+        "lot": {
+          "raw": "376478",
+          "formatted": "376,478"
+        },
+        "time": "11:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10971",
+          "formatted": "10,971"
+        },
+        "lot": {
+          "raw": "378045",
+          "formatted": "378,045"
+        },
+        "time": "11:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10981",
+          "formatted": "10,981"
+        },
+        "lot": {
+          "raw": "378952",
+          "formatted": "378,952"
+        },
+        "time": "11:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10985",
+          "formatted": "10,985"
+        },
+        "lot": {
+          "raw": "378998",
+          "formatted": "378,998"
+        },
+        "time": "11:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "10987",
+          "formatted": "10,987"
+        },
+        "lot": {
+          "raw": "379000",
+          "formatted": "379,000"
+        },
+        "time": "11:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11014",
+          "formatted": "11,014"
+        },
+        "lot": {
+          "raw": "379524",
+          "formatted": "379,524"
+        },
+        "time": "11:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11046",
+          "formatted": "11,046"
+        },
+        "lot": {
+          "raw": "380020",
+          "formatted": "380,020"
+        },
+        "time": "11:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "11116",
+          "formatted": "11,116"
+        },
+        "lot": {
+          "raw": "383234",
+          "formatted": "383,234"
+        },
+        "time": "11:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12165",
+          "formatted": "12,165"
+        },
+        "lot": {
+          "raw": "410111",
+          "formatted": "410,111"
+        },
+        "time": "11:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12167",
+          "formatted": "12,167"
+        },
+        "lot": {
+          "raw": "410113",
+          "formatted": "410,113"
+        },
+        "time": "11:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12199",
+          "formatted": "12,199"
+        },
+        "lot": {
+          "raw": "410520",
+          "formatted": "410,520"
+        },
+        "time": "11:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12203",
+          "formatted": "12,203"
+        },
+        "lot": {
+          "raw": "410553",
+          "formatted": "410,553"
+        },
+        "time": "11:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12492",
+          "formatted": "12,492"
+        },
+        "lot": {
+          "raw": "421806",
+          "formatted": "421,806"
+        },
+        "time": "11:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12548",
+          "formatted": "12,548"
+        },
+        "lot": {
+          "raw": "423594",
+          "formatted": "423,594"
+        },
+        "time": "11:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12933",
+          "formatted": "12,933"
+        },
+        "lot": {
+          "raw": "438319",
+          "formatted": "438,319"
+        },
+        "time": "11:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "12978",
+          "formatted": "12,978"
+        },
+        "lot": {
+          "raw": "439838",
+          "formatted": "439,838"
+        },
+        "time": "11:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13033",
+          "formatted": "13,033"
+        },
+        "lot": {
+          "raw": "443231",
+          "formatted": "443,231"
+        },
+        "time": "11:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13046",
+          "formatted": "13,046"
+        },
+        "lot": {
+          "raw": "443395",
+          "formatted": "443,395"
+        },
+        "time": "11:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13052",
+          "formatted": "13,052"
+        },
+        "lot": {
+          "raw": "443521",
+          "formatted": "443,521"
+        },
+        "time": "11:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13058",
+          "formatted": "13,058"
+        },
+        "lot": {
+          "raw": "443599",
+          "formatted": "443,599"
+        },
+        "time": "11:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13066",
+          "formatted": "13,066"
+        },
+        "lot": {
+          "raw": "443735",
+          "formatted": "443,735"
+        },
+        "time": "11:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13069",
+          "formatted": "13,069"
+        },
+        "lot": {
+          "raw": "443747",
+          "formatted": "443,747"
+        },
+        "time": "11:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13070",
+          "formatted": "13,070"
+        },
+        "lot": {
+          "raw": "443764",
+          "formatted": "443,764"
+        },
+        "time": "11:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13075",
+          "formatted": "13,075"
+        },
+        "lot": {
+          "raw": "443886",
+          "formatted": "443,886"
+        },
+        "time": "11:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13079",
+          "formatted": "13,079"
+        },
+        "lot": {
+          "raw": "443928",
+          "formatted": "443,928"
+        },
+        "time": "11:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13245",
+          "formatted": "13,245"
+        },
+        "lot": {
+          "raw": "451667",
+          "formatted": "451,667"
+        },
+        "time": "11:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13251",
+          "formatted": "13,251"
+        },
+        "lot": {
+          "raw": "451855",
+          "formatted": "451,855"
+        },
+        "time": "11:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13280",
+          "formatted": "13,280"
+        },
+        "lot": {
+          "raw": "453878",
+          "formatted": "453,878"
+        },
+        "time": "11:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13286",
+          "formatted": "13,286"
+        },
+        "lot": {
+          "raw": "453924",
+          "formatted": "453,924"
+        },
+        "time": "11:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13296",
+          "formatted": "13,296"
+        },
+        "lot": {
+          "raw": "454480",
+          "formatted": "454,480"
+        },
+        "time": "11:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13299",
+          "formatted": "13,299"
+        },
+        "lot": {
+          "raw": "454489",
+          "formatted": "454,489"
+        },
+        "time": "11:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13299",
+          "formatted": "13,299"
+        },
+        "lot": {
+          "raw": "454489",
+          "formatted": "454,489"
+        },
+        "time": "11:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13303",
+          "formatted": "13,303"
+        },
+        "lot": {
+          "raw": "454497",
+          "formatted": "454,497"
+        },
+        "time": "11:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13309",
+          "formatted": "13,309"
+        },
+        "lot": {
+          "raw": "454586",
+          "formatted": "454,586"
+        },
+        "time": "11:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13436",
+          "formatted": "13,436"
+        },
+        "lot": {
+          "raw": "459885",
+          "formatted": "459,885"
+        },
+        "time": "11:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13440",
+          "formatted": "13,440"
+        },
+        "lot": {
+          "raw": "459924",
+          "formatted": "459,924"
+        },
+        "time": "11:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13444",
+          "formatted": "13,444"
+        },
+        "lot": {
+          "raw": "459950",
+          "formatted": "459,950"
+        },
+        "time": "11:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13468",
+          "formatted": "13,468"
+        },
+        "lot": {
+          "raw": "460899",
+          "formatted": "460,899"
+        },
+        "time": "11:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13475",
+          "formatted": "13,475"
+        },
+        "lot": {
+          "raw": "460937",
+          "formatted": "460,937"
+        },
+        "time": "11:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13480",
+          "formatted": "13,480"
+        },
+        "lot": {
+          "raw": "461049",
+          "formatted": "461,049"
+        },
+        "time": "11:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13491",
+          "formatted": "13,491"
+        },
+        "lot": {
+          "raw": "462809",
+          "formatted": "462,809"
+        },
+        "time": "11:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13494",
+          "formatted": "13,494"
+        },
+        "lot": {
+          "raw": "462878",
+          "formatted": "462,878"
+        },
+        "time": "11:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13501",
+          "formatted": "13,501"
+        },
+        "lot": {
+          "raw": "463081",
+          "formatted": "463,081"
+        },
+        "time": "11:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13894",
+          "formatted": "13,894"
+        },
+        "lot": {
+          "raw": "478601",
+          "formatted": "478,601"
+        },
+        "time": "11:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13908",
+          "formatted": "13,908"
+        },
+        "lot": {
+          "raw": "478939",
+          "formatted": "478,939"
+        },
+        "time": "11:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13913",
+          "formatted": "13,913"
+        },
+        "lot": {
+          "raw": "479041",
+          "formatted": "479,041"
+        },
+        "time": "11:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13913",
+          "formatted": "13,913"
+        },
+        "lot": {
+          "raw": "479041",
+          "formatted": "479,041"
+        },
+        "time": "11:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13916",
+          "formatted": "13,916"
+        },
+        "lot": {
+          "raw": "479054",
+          "formatted": "479,054"
+        },
+        "time": "11:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "13923",
+          "formatted": "13,923"
+        },
+        "lot": {
+          "raw": "479252",
+          "formatted": "479,252"
+        },
+        "time": "11:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14069",
+          "formatted": "14,069"
+        },
+        "lot": {
+          "raw": "481974",
+          "formatted": "481,974"
+        },
+        "time": "13:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14076",
+          "formatted": "14,076"
+        },
+        "lot": {
+          "raw": "482130",
+          "formatted": "482,130"
+        },
+        "time": "13:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14091",
+          "formatted": "14,091"
+        },
+        "lot": {
+          "raw": "482433",
+          "formatted": "482,433"
+        },
+        "time": "13:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14157",
+          "formatted": "14,157"
+        },
+        "lot": {
+          "raw": "488282",
+          "formatted": "488,282"
+        },
+        "time": "13:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14161",
+          "formatted": "14,161"
+        },
+        "lot": {
+          "raw": "488309",
+          "formatted": "488,309"
+        },
+        "time": "13:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14169",
+          "formatted": "14,169"
+        },
+        "lot": {
+          "raw": "489030",
+          "formatted": "489,030"
+        },
+        "time": "13:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14173",
+          "formatted": "14,173"
+        },
+        "lot": {
+          "raw": "489035",
+          "formatted": "489,035"
+        },
+        "time": "13:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14422",
+          "formatted": "14,422"
+        },
+        "lot": {
+          "raw": "494475",
+          "formatted": "494,475"
+        },
+        "time": "13:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14442",
+          "formatted": "14,442"
+        },
+        "lot": {
+          "raw": "495269",
+          "formatted": "495,269"
+        },
+        "time": "13:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14451",
+          "formatted": "14,451"
+        },
+        "lot": {
+          "raw": "495444",
+          "formatted": "495,444"
+        },
+        "time": "13:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14501",
+          "formatted": "14,501"
+        },
+        "lot": {
+          "raw": "498508",
+          "formatted": "498,508"
+        },
+        "time": "13:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14510",
+          "formatted": "14,510"
+        },
+        "lot": {
+          "raw": "498743",
+          "formatted": "498,743"
+        },
+        "time": "13:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14516",
+          "formatted": "14,516"
+        },
+        "lot": {
+          "raw": "501127",
+          "formatted": "501,127"
+        },
+        "time": "13:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14520",
+          "formatted": "14,520"
+        },
+        "lot": {
+          "raw": "501344",
+          "formatted": "501,344"
+        },
+        "time": "13:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14536",
+          "formatted": "14,536"
+        },
+        "lot": {
+          "raw": "502346",
+          "formatted": "502,346"
+        },
+        "time": "13:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14542",
+          "formatted": "14,542"
+        },
+        "lot": {
+          "raw": "502357",
+          "formatted": "502,357"
+        },
+        "time": "13:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14548",
+          "formatted": "14,548"
+        },
+        "lot": {
+          "raw": "502520",
+          "formatted": "502,520"
+        },
+        "time": "13:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14552",
+          "formatted": "14,552"
+        },
+        "lot": {
+          "raw": "502558",
+          "formatted": "502,558"
+        },
+        "time": "13:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14554",
+          "formatted": "14,554"
+        },
+        "lot": {
+          "raw": "502609",
+          "formatted": "502,609"
+        },
+        "time": "13:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14565",
+          "formatted": "14,565"
+        },
+        "lot": {
+          "raw": "503291",
+          "formatted": "503,291"
+        },
+        "time": "13:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14573",
+          "formatted": "14,573"
+        },
+        "lot": {
+          "raw": "503657",
+          "formatted": "503,657"
+        },
+        "time": "13:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14580",
+          "formatted": "14,580"
+        },
+        "lot": {
+          "raw": "503753",
+          "formatted": "503,753"
+        },
+        "time": "13:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14622",
+          "formatted": "14,622"
+        },
+        "lot": {
+          "raw": "504702",
+          "formatted": "504,702"
+        },
+        "time": "13:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14673",
+          "formatted": "14,673"
+        },
+        "lot": {
+          "raw": "509582",
+          "formatted": "509,582"
+        },
+        "time": "13:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14686",
+          "formatted": "14,686"
+        },
+        "lot": {
+          "raw": "509831",
+          "formatted": "509,831"
+        },
+        "time": "13:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14687",
+          "formatted": "14,687"
+        },
+        "lot": {
+          "raw": "509832",
+          "formatted": "509,832"
+        },
+        "time": "13:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14693",
+          "formatted": "14,693"
+        },
+        "lot": {
+          "raw": "510039",
+          "formatted": "510,039"
+        },
+        "time": "13:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14698",
+          "formatted": "14,698"
+        },
+        "lot": {
+          "raw": "510138",
+          "formatted": "510,138"
+        },
+        "time": "13:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14708",
+          "formatted": "14,708"
+        },
+        "lot": {
+          "raw": "510454",
+          "formatted": "510,454"
+        },
+        "time": "13:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14718",
+          "formatted": "14,718"
+        },
+        "lot": {
+          "raw": "511180",
+          "formatted": "511,180"
+        },
+        "time": "13:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14722",
+          "formatted": "14,722"
+        },
+        "lot": {
+          "raw": "512037",
+          "formatted": "512,037"
+        },
+        "time": "14:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14733",
+          "formatted": "14,733"
+        },
+        "lot": {
+          "raw": "512553",
+          "formatted": "512,553"
+        },
+        "time": "14:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14739",
+          "formatted": "14,739"
+        },
+        "lot": {
+          "raw": "512576",
+          "formatted": "512,576"
+        },
+        "time": "14:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14742",
+          "formatted": "14,742"
+        },
+        "lot": {
+          "raw": "512580",
+          "formatted": "512,580"
+        },
+        "time": "14:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14749",
+          "formatted": "14,749"
+        },
+        "lot": {
+          "raw": "512626",
+          "formatted": "512,626"
+        },
+        "time": "14:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14755",
+          "formatted": "14,755"
+        },
+        "lot": {
+          "raw": "512728",
+          "formatted": "512,728"
+        },
+        "time": "14:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14771",
+          "formatted": "14,771"
+        },
+        "lot": {
+          "raw": "513596",
+          "formatted": "513,596"
+        },
+        "time": "14:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14783",
+          "formatted": "14,783"
+        },
+        "lot": {
+          "raw": "513892",
+          "formatted": "513,892"
+        },
+        "time": "14:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14787",
+          "formatted": "14,787"
+        },
+        "lot": {
+          "raw": "513977",
+          "formatted": "513,977"
+        },
+        "time": "14:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14790",
+          "formatted": "14,790"
+        },
+        "lot": {
+          "raw": "514115",
+          "formatted": "514,115"
+        },
+        "time": "14:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14791",
+          "formatted": "14,791"
+        },
+        "lot": {
+          "raw": "514119",
+          "formatted": "514,119"
+        },
+        "time": "14:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14798",
+          "formatted": "14,798"
+        },
+        "lot": {
+          "raw": "514270",
+          "formatted": "514,270"
+        },
+        "time": "14:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14805",
+          "formatted": "14,805"
+        },
+        "lot": {
+          "raw": "514350",
+          "formatted": "514,350"
+        },
+        "time": "14:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14835",
+          "formatted": "14,835"
+        },
+        "lot": {
+          "raw": "515156",
+          "formatted": "515,156"
+        },
+        "time": "14:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14837",
+          "formatted": "14,837"
+        },
+        "lot": {
+          "raw": "515184",
+          "formatted": "515,184"
+        },
+        "time": "14:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14891",
+          "formatted": "14,891"
+        },
+        "lot": {
+          "raw": "515741",
+          "formatted": "515,741"
+        },
+        "time": "14:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14914",
+          "formatted": "14,914"
+        },
+        "lot": {
+          "raw": "516195",
+          "formatted": "516,195"
+        },
+        "time": "14:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14927",
+          "formatted": "14,927"
+        },
+        "lot": {
+          "raw": "516269",
+          "formatted": "516,269"
+        },
+        "time": "14:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14951",
+          "formatted": "14,951"
+        },
+        "lot": {
+          "raw": "517035",
+          "formatted": "517,035"
+        },
+        "time": "14:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14959",
+          "formatted": "14,959"
+        },
+        "lot": {
+          "raw": "517329",
+          "formatted": "517,329"
+        },
+        "time": "14:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14981",
+          "formatted": "14,981"
+        },
+        "lot": {
+          "raw": "519851",
+          "formatted": "519,851"
+        },
+        "time": "14:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14990",
+          "formatted": "14,990"
+        },
+        "lot": {
+          "raw": "520086",
+          "formatted": "520,086"
+        },
+        "time": "14:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "14997",
+          "formatted": "14,997"
+        },
+        "lot": {
+          "raw": "520201",
+          "formatted": "520,201"
+        },
+        "time": "14:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15004",
+          "formatted": "15,004"
+        },
+        "lot": {
+          "raw": "520407",
+          "formatted": "520,407"
+        },
+        "time": "14:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15008",
+          "formatted": "15,008"
+        },
+        "lot": {
+          "raw": "520579",
+          "formatted": "520,579"
+        },
+        "time": "14:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15012",
+          "formatted": "15,012"
+        },
+        "lot": {
+          "raw": "520755",
+          "formatted": "520,755"
+        },
+        "time": "14:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15043",
+          "formatted": "15,043"
+        },
+        "lot": {
+          "raw": "523845",
+          "formatted": "523,845"
+        },
+        "time": "14:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15048",
+          "formatted": "15,048"
+        },
+        "lot": {
+          "raw": "524608",
+          "formatted": "524,608"
+        },
+        "time": "14:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15051",
+          "formatted": "15,051"
+        },
+        "lot": {
+          "raw": "524661",
+          "formatted": "524,661"
+        },
+        "time": "14:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15053",
+          "formatted": "15,053"
+        },
+        "lot": {
+          "raw": "524668",
+          "formatted": "524,668"
+        },
+        "time": "14:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15071",
+          "formatted": "15,071"
+        },
+        "lot": {
+          "raw": "524906",
+          "formatted": "524,906"
+        },
+        "time": "14:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15076",
+          "formatted": "15,076"
+        },
+        "lot": {
+          "raw": "525135",
+          "formatted": "525,135"
+        },
+        "time": "14:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15079",
+          "formatted": "15,079"
+        },
+        "lot": {
+          "raw": "525175",
+          "formatted": "525,175"
+        },
+        "time": "14:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15102",
+          "formatted": "15,102"
+        },
+        "lot": {
+          "raw": "525429",
+          "formatted": "525,429"
+        },
+        "time": "14:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15175",
+          "formatted": "15,175"
+        },
+        "lot": {
+          "raw": "531320",
+          "formatted": "531,320"
+        },
+        "time": "14:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15182",
+          "formatted": "15,182"
+        },
+        "lot": {
+          "raw": "531371",
+          "formatted": "531,371"
+        },
+        "time": "14:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15183",
+          "formatted": "15,183"
+        },
+        "lot": {
+          "raw": "531421",
+          "formatted": "531,421"
+        },
+        "time": "14:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15185",
+          "formatted": "15,185"
+        },
+        "lot": {
+          "raw": "531424",
+          "formatted": "531,424"
+        },
+        "time": "14:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15192",
+          "formatted": "15,192"
+        },
+        "lot": {
+          "raw": "531549",
+          "formatted": "531,549"
+        },
+        "time": "14:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15194",
+          "formatted": "15,194"
+        },
+        "lot": {
+          "raw": "531562",
+          "formatted": "531,562"
+        },
+        "time": "14:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15204",
+          "formatted": "15,204"
+        },
+        "lot": {
+          "raw": "531715",
+          "formatted": "531,715"
+        },
+        "time": "14:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15210",
+          "formatted": "15,210"
+        },
+        "lot": {
+          "raw": "531983",
+          "formatted": "531,983"
+        },
+        "time": "14:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15215",
+          "formatted": "15,215"
+        },
+        "lot": {
+          "raw": "532097",
+          "formatted": "532,097"
+        },
+        "time": "14:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15216",
+          "formatted": "15,216"
+        },
+        "lot": {
+          "raw": "532099",
+          "formatted": "532,099"
+        },
+        "time": "14:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15225",
+          "formatted": "15,225"
+        },
+        "lot": {
+          "raw": "532418",
+          "formatted": "532,418"
+        },
+        "time": "14:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15228",
+          "formatted": "15,228"
+        },
+        "lot": {
+          "raw": "532438",
+          "formatted": "532,438"
+        },
+        "time": "14:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15231",
+          "formatted": "15,231"
+        },
+        "lot": {
+          "raw": "532449",
+          "formatted": "532,449"
+        },
+        "time": "14:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15231",
+          "formatted": "15,231"
+        },
+        "lot": {
+          "raw": "532449",
+          "formatted": "532,449"
+        },
+        "time": "14:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15232",
+          "formatted": "15,232"
+        },
+        "lot": {
+          "raw": "532465",
+          "formatted": "532,465"
+        },
+        "time": "14:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15237",
+          "formatted": "15,237"
+        },
+        "lot": {
+          "raw": "532470",
+          "formatted": "532,470"
+        },
+        "time": "14:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15240",
+          "formatted": "15,240"
+        },
+        "lot": {
+          "raw": "532475",
+          "formatted": "532,475"
+        },
+        "time": "14:50",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15251",
+          "formatted": "15,251"
+        },
+        "lot": {
+          "raw": "532695",
+          "formatted": "532,695"
+        },
+        "time": "14:51",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15260",
+          "formatted": "15,260"
+        },
+        "lot": {
+          "raw": "532830",
+          "formatted": "532,830"
+        },
+        "time": "14:52",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15272",
+          "formatted": "15,272"
+        },
+        "lot": {
+          "raw": "533530",
+          "formatted": "533,530"
+        },
+        "time": "14:53",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15272",
+          "formatted": "15,272"
+        },
+        "lot": {
+          "raw": "533530",
+          "formatted": "533,530"
+        },
+        "time": "14:54",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15275",
+          "formatted": "15,275"
+        },
+        "lot": {
+          "raw": "533537",
+          "formatted": "533,537"
+        },
+        "time": "14:55",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15278",
+          "formatted": "15,278"
+        },
+        "lot": {
+          "raw": "533551",
+          "formatted": "533,551"
+        },
+        "time": "14:56",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15281",
+          "formatted": "15,281"
+        },
+        "lot": {
+          "raw": "533611",
+          "formatted": "533,611"
+        },
+        "time": "14:57",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15282",
+          "formatted": "15,282"
+        },
+        "lot": {
+          "raw": "533612",
+          "formatted": "533,612"
+        },
+        "time": "14:58",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15292",
+          "formatted": "15,292"
+        },
+        "lot": {
+          "raw": "533908",
+          "formatted": "533,908"
+        },
+        "time": "14:59",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15428",
+          "formatted": "15,428"
+        },
+        "lot": {
+          "raw": "541354",
+          "formatted": "541,354"
+        },
+        "time": "15:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15446",
+          "formatted": "15,446"
+        },
+        "lot": {
+          "raw": "541955",
+          "formatted": "541,955"
+        },
+        "time": "15:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15452",
+          "formatted": "15,452"
+        },
+        "lot": {
+          "raw": "542236",
+          "formatted": "542,236"
+        },
+        "time": "15:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15476",
+          "formatted": "15,476"
+        },
+        "lot": {
+          "raw": "542561",
+          "formatted": "542,561"
+        },
+        "time": "15:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15480",
+          "formatted": "15,480"
+        },
+        "lot": {
+          "raw": "542772",
+          "formatted": "542,772"
+        },
+        "time": "15:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15490",
+          "formatted": "15,490"
+        },
+        "lot": {
+          "raw": "543080",
+          "formatted": "543,080"
+        },
+        "time": "15:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15497",
+          "formatted": "15,497"
+        },
+        "lot": {
+          "raw": "543204",
+          "formatted": "543,204"
+        },
+        "time": "15:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15501",
+          "formatted": "15,501"
+        },
+        "lot": {
+          "raw": "543306",
+          "formatted": "543,306"
+        },
+        "time": "15:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15513",
+          "formatted": "15,513"
+        },
+        "lot": {
+          "raw": "543624",
+          "formatted": "543,624"
+        },
+        "time": "15:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15518",
+          "formatted": "15,518"
+        },
+        "lot": {
+          "raw": "543854",
+          "formatted": "543,854"
+        },
+        "time": "15:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15544",
+          "formatted": "15,544"
+        },
+        "lot": {
+          "raw": "544406",
+          "formatted": "544,406"
+        },
+        "time": "15:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15556",
+          "formatted": "15,556"
+        },
+        "lot": {
+          "raw": "544634",
+          "formatted": "544,634"
+        },
+        "time": "15:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15588",
+          "formatted": "15,588"
+        },
+        "lot": {
+          "raw": "545180",
+          "formatted": "545,180"
+        },
+        "time": "15:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15596",
+          "formatted": "15,596"
+        },
+        "lot": {
+          "raw": "545516",
+          "formatted": "545,516"
+        },
+        "time": "15:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15612",
+          "formatted": "15,612"
+        },
+        "lot": {
+          "raw": "545827",
+          "formatted": "545,827"
+        },
+        "time": "15:14",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15615",
+          "formatted": "15,615"
+        },
+        "lot": {
+          "raw": "545851",
+          "formatted": "545,851"
+        },
+        "time": "15:15",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15615",
+          "formatted": "15,615"
+        },
+        "lot": {
+          "raw": "545851",
+          "formatted": "545,851"
+        },
+        "time": "15:16",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15627",
+          "formatted": "15,627"
+        },
+        "lot": {
+          "raw": "546081",
+          "formatted": "546,081"
+        },
+        "time": "15:17",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15629",
+          "formatted": "15,629"
+        },
+        "lot": {
+          "raw": "546091",
+          "formatted": "546,091"
+        },
+        "time": "15:18",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15633",
+          "formatted": "15,633"
+        },
+        "lot": {
+          "raw": "546170",
+          "formatted": "546,170"
+        },
+        "time": "15:19",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15649",
+          "formatted": "15,649"
+        },
+        "lot": {
+          "raw": "546386",
+          "formatted": "546,386"
+        },
+        "time": "15:20",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15652",
+          "formatted": "15,652"
+        },
+        "lot": {
+          "raw": "546938",
+          "formatted": "546,938"
+        },
+        "time": "15:21",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15655",
+          "formatted": "15,655"
+        },
+        "lot": {
+          "raw": "546963",
+          "formatted": "546,963"
+        },
+        "time": "15:22",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15655",
+          "formatted": "15,655"
+        },
+        "lot": {
+          "raw": "546963",
+          "formatted": "546,963"
+        },
+        "time": "15:23",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15656",
+          "formatted": "15,656"
+        },
+        "lot": {
+          "raw": "546973",
+          "formatted": "546,973"
+        },
+        "time": "15:24",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15657",
+          "formatted": "15,657"
+        },
+        "lot": {
+          "raw": "546974",
+          "formatted": "546,974"
+        },
+        "time": "15:25",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15668",
+          "formatted": "15,668"
+        },
+        "lot": {
+          "raw": "547485",
+          "formatted": "547,485"
+        },
+        "time": "15:26",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15683",
+          "formatted": "15,683"
+        },
+        "lot": {
+          "raw": "547764",
+          "formatted": "547,764"
+        },
+        "time": "15:27",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15690",
+          "formatted": "15,690"
+        },
+        "lot": {
+          "raw": "547918",
+          "formatted": "547,918"
+        },
+        "time": "15:28",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15710",
+          "formatted": "15,710"
+        },
+        "lot": {
+          "raw": "549171",
+          "formatted": "549,171"
+        },
+        "time": "15:29",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15960",
+          "formatted": "15,960"
+        },
+        "lot": {
+          "raw": "559135",
+          "formatted": "559,135"
+        },
+        "time": "15:30",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15965",
+          "formatted": "15,965"
+        },
+        "lot": {
+          "raw": "559265",
+          "formatted": "559,265"
+        },
+        "time": "15:31",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "15997",
+          "formatted": "15,997"
+        },
+        "lot": {
+          "raw": "559682",
+          "formatted": "559,682"
+        },
+        "time": "15:32",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16000",
+          "formatted": "16,000"
+        },
+        "lot": {
+          "raw": "559687",
+          "formatted": "559,687"
+        },
+        "time": "15:33",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16003",
+          "formatted": "16,003"
+        },
+        "lot": {
+          "raw": "559699",
+          "formatted": "559,699"
+        },
+        "time": "15:34",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16008",
+          "formatted": "16,008"
+        },
+        "lot": {
+          "raw": "559841",
+          "formatted": "559,841"
+        },
+        "time": "15:35",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16012",
+          "formatted": "16,012"
+        },
+        "lot": {
+          "raw": "559870",
+          "formatted": "559,870"
+        },
+        "time": "15:36",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16020",
+          "formatted": "16,020"
+        },
+        "lot": {
+          "raw": "560267",
+          "formatted": "560,267"
+        },
+        "time": "15:37",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16102",
+          "formatted": "16,102"
+        },
+        "lot": {
+          "raw": "563697",
+          "formatted": "563,697"
+        },
+        "time": "15:38",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16113",
+          "formatted": "16,113"
+        },
+        "lot": {
+          "raw": "564328",
+          "formatted": "564,328"
+        },
+        "time": "15:39",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16524",
+          "formatted": "16,524"
+        },
+        "lot": {
+          "raw": "574326",
+          "formatted": "574,326"
+        },
+        "time": "15:40",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16527",
+          "formatted": "16,527"
+        },
+        "lot": {
+          "raw": "574331",
+          "formatted": "574,331"
+        },
+        "time": "15:41",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16536",
+          "formatted": "16,536"
+        },
+        "lot": {
+          "raw": "574710",
+          "formatted": "574,710"
+        },
+        "time": "15:42",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16543",
+          "formatted": "16,543"
+        },
+        "lot": {
+          "raw": "574922",
+          "formatted": "574,922"
+        },
+        "time": "15:43",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16557",
+          "formatted": "16,557"
+        },
+        "lot": {
+          "raw": "575104",
+          "formatted": "575,104"
+        },
+        "time": "15:44",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16561",
+          "formatted": "16,561"
+        },
+        "lot": {
+          "raw": "575154",
+          "formatted": "575,154"
+        },
+        "time": "15:45",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16569",
+          "formatted": "16,569"
+        },
+        "lot": {
+          "raw": "575174",
+          "formatted": "575,174"
+        },
+        "time": "15:46",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16582",
+          "formatted": "16,582"
+        },
+        "lot": {
+          "raw": "575421",
+          "formatted": "575,421"
+        },
+        "time": "15:47",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16599",
+          "formatted": "16,599"
+        },
+        "lot": {
+          "raw": "575675",
+          "formatted": "575,675"
+        },
+        "time": "15:48",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16650",
+          "formatted": "16,650"
+        },
+        "lot": {
+          "raw": "576256",
+          "formatted": "576,256"
+        },
+        "time": "15:49",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:00",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:01",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:02",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:03",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:04",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:05",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:06",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:07",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:08",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:09",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:10",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:11",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:12",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:13",
+        "value": null
+      },
+      {
+        "frequency": {
+          "raw": "16838",
+          "formatted": "16,838"
+        },
+        "lot": {
+          "raw": "602211",
+          "formatted": "602,211"
+        },
+        "time": "16:14",
+        "value": null
+      }
+    ],
+    "pre_post": {
+      "frequency": null,
+      "lot": null,
+      "time": "",
+      "value": null
+    },
+    "is_show_pre_post": false,
+    "is_fca_stock": false,
+    "prices": [],
+    "net_values": []
+  }
+}

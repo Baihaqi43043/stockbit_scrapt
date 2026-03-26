@@ -181,9 +181,41 @@ def show_news_panel(news_rows: list):
     console.print(Panel(t, title="[bold]Berita Terbaru[/bold]", border_style="blue", padding=(0,1)))
 
 
+def show_flow_panel(flow: dict):
+    metrics = flow.get("metrics")
+    if not metrics or not metrics.get("accdist_status"):
+        return
+
+    t = Table(box=box.SIMPLE, show_header=True, header_style="bold dim")
+    t.add_column("Indikator Flow", style="dim", width=24)
+    t.add_column("Detail", width=42)
+
+    accdist = str(metrics.get("accdist_status", "-"))
+    
+    # Valuasi
+    retail = float(metrics.get("retail_net_val") or 0)
+    big = float(metrics.get("big_money_net_val") or 0)
+    frgn = float(metrics.get("foreign_net_val") or 0)
+    
+    # Warna
+    c_ret = "green" if retail > 0 else "red" if retail < 0 else "dim"
+    c_big = "green" if big > 0 else "red" if big < 0 else "dim"
+    c_fgn = "green" if frgn > 0 else "red" if frgn < 0 else "dim"
+    
+    t.add_row("Status Market Detector", f"[bold]{accdist}[/bold]")
+    t.add_row("Big Money (Net)", f"[{c_big}]{big / 1e9:+.2f} Miliar[/{c_big}]")
+    t.add_row("Retail (Net)", f"[{c_ret}]{retail / 1e9:+.2f} Miliar[/{c_ret}]")
+    t.add_row("Asing (Net Foreign)", f"[{c_fgn}]{frgn / 1e9:+.2f} Miliar[/{c_fgn}]")
+    
+    tx_count = len(flow.get("broker_tx", []))
+    t.add_row("Broker Terlibat", f"[cyan]{tx_count} broker aktif[/cyan]")
+
+    console.print(Panel(t, title="[bold]Flow Tracker Analysis[/bold]", border_style="magenta", padding=(0,1)))
+
+
 # ─── Collect ─────────────────────────────────────────────────────────────────
 
-def collect(ticker: str):
+def collect(ticker: str, target_date=None):
     from src.database.repository import (
         upsert_ticker, save_fundamental, save_price,
         get_latest_fundamental, get_historical_rows,
@@ -245,6 +277,21 @@ def collect(ticker: str):
             console.print(f"  [yellow]⚠ News fetch gagal: {e}[/yellow]")
             news_rows = get_news_rows(ticker)
 
+    with console.status(f"[cyan]Fetching flow tracker {ticker}...[/cyan]", spinner="dots"):
+        try:
+            from src.collector.flow import fetch_flow_data
+            from src.database.repository import save_flow_tracker
+            
+            flow_data = fetch_flow_data(ticker, target_date=target_date)
+            if flow_data.get("metrics") and flow_data["metrics"].get("accdist_status"):
+                save_flow_tracker(ticker, flow_data, price_data=price_data)
+                broker_count = len(flow_data.get("broker_tx", []))
+                console.print(f"  [green]✓[/green] Flow tracker tersimpan ({broker_count} riwayat broker)")
+            else:
+                console.print(f"  [dim]⚠ Data flow tracker kosong[/dim]")
+        except Exception as e:
+            console.print(f"  [yellow]⚠ Flow fetch gagal: {e}[/yellow]")
+
     if not fund and not price_data:
         console.print(f"[red]✗ Tidak ada data untuk {ticker}. Pastikan kode emiten benar.[/red]")
         return
@@ -265,6 +312,10 @@ def collect(ticker: str):
         show_dividend_panel(div_rows)
     if news_rows:
         show_news_panel(news_rows)
+    
+    # Show flow panel if flow_data exists in local scope
+    if 'flow_data' in locals() and flow_data.get("metrics"):
+        show_flow_panel(flow_data)
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -279,15 +330,42 @@ def main():
 
     while True:
         console.print()
-        ticker = Prompt.ask(
-            "[bold]Masukkan kode emiten[/bold] [dim](contoh: BBCA, TLKM, BUMI) atau [red]exit[/red] untuk keluar[/dim]"
+        input_args = Prompt.ask(
+            "[bold]Masukkan kode emiten[/bold] [dim](contoh: BBCA, atau BBCA 30 untuk narik data 30 hari ke belakang)[/dim]"
         ).strip().upper()
 
-        if ticker in ("EXIT", "Q", "QUIT", ""):
+        if input_args in ("EXIT", "Q", "QUIT", ""):
             console.print("\n[dim]Sampai jumpa![/dim]")
             break
 
-        collect(ticker)
+        parts = input_args.split()
+        if not parts:
+            continue
+            
+        ticker = parts[0]
+        days_back = 1
+        
+        if len(parts) > 1 and parts[1].isdigit():
+            days_back = int(parts[1])
+            
+        if days_back > 1:
+            console.print(f"[magenta]Memulai mode Backfilling untuk {ticker} selama {days_back} hari kalender ke belakang...[/magenta]")
+            from datetime import timedelta
+            from datetime import datetime
+            
+            # Start from today and go backwards
+            for i in range(days_back):
+                target_date = datetime.now().date() - timedelta(days=i)
+                # Skip weekend (Stock market closed)
+                if target_date.weekday() >= 5: # 5=Sat, 6=Sun
+                    continue
+                    
+                console.print(f"\n[bold yellow]Target Tanggal: {target_date.strftime('%Y-%m-%d')}[/bold yellow]")
+                collect(ticker, target_date)
+            
+            console.print(f"\n[bold green]✓ Backfilling {ticker} selesai![/bold green]")
+        else:
+            collect(ticker)
 
 
 if __name__ == "__main__":
