@@ -20,11 +20,12 @@ Sebelum mulai menjalankan aplikasi ini, silakan pastikan PC / Sistem Anda memili
    ```sql
    CREATE DATABASE stockbit_data;
    ```
-3. Import tabel-tabel aplikasi ke database yang barusan dibuat. Di dalam folder `migrations/` terdapat 4 file SQL yang harus dijalankan/di-import **secara berurutan**:
+   3. Import tabel-tabel aplikasi ke database yang barusan dibuat. Di dalam folder `migrations/` terdapat 5 file SQL yang harus dijalankan/di-import **secara berurutan**:
    - `migrations/schema.sql`
    - `migrations/add_columns.sql`
    - `migrations/add_news_dividend.sql`
    - `migrations/add_historical.sql`
+   - `migrations/add_flow_tracker_v2.sql`
 
    Anda dapat menekan tombol **Import** pada phpMyAdmin secara berurutan, atau via CLI:
    ```bash
@@ -32,6 +33,7 @@ Sebelum mulai menjalankan aplikasi ini, silakan pastikan PC / Sistem Anda memili
    mysql -u root -p stockbit_data < migrations/add_columns.sql
    mysql -u root -p stockbit_data < migrations/add_news_dividend.sql
    mysql -u root -p stockbit_data < migrations/add_historical.sql
+   mysql -u root -p stockbit_data < migrations/add_flow_tracker_v2.sql
    ```
 
 ### 2. Setup File `.env` (Konfigurasi Database)
@@ -96,11 +98,29 @@ Website Stockbit memerlukan proses otentikasi. Anda harus mengatur Token sesi lo
    python cli.py
    ```
 3. Lalui antarmuka di layar. Program akan meminta **Kode Emiten** (Ticker Saham).
-4. Masukkan kode tanpa perlu `.JK`. Contoh ketik yang benar:
-   - `GOTO`
-   - `BUMI`
-   - `BBCA`
-5. Aplikasi akan mengambil data (Harga Terbaru, Fundamental, Historis, hingga Berita), menampilkannnya ke layar terminal secara format yang cantik, **lalu otomatis di-save (insert/update) langsung ke database `stockbit_data`**.
+4. Masukkan kode tanpa perlu `.JK`. Anda juga bisa menyematkan angka hari untuk fitur **Backfilling** (tarik data mundur). Contoh ketik yang benar:
+   - `GOTO` -> Ambil data khusus hari ini saja.
+   - `BUMI 5` -> Tarik data BUMI perlahan mundur selama 5 hari bursa terakhir.
+   - `BBCA 30` -> Tarik rekam jejak bandar BBCA selama sebulan penuh (Otomatis skip Sabtu/Minggu).
+
+5. Aplikasi akan mengambil data (Harga Terbaru, Fundamental, Historis, Berita, dan **Flow Tracker / Bandarmologi**), menampilkannnya ke layar terminal secara format yang cantik, **lalu otomatis di-save (insert/update) langsung ke database `stockbit_data`**.
+
+### 💡 Contoh Hasil Analisis Flow Tracker
+Sistem telah dirancang pintar untuk memetakan kekuatan "Retail vs Big Money" sehingga kamu gampang melihat konfirmasi Akumulasi (Big Money hijau, Retail merah).
+```text
+┌─────────────────────────── Flow Tracker Analysis ───────────────────────────┐
+│                                                                             │
+│   Indikator Flow             Detail                                         │
+│  ───────────────────────────────────────────────────────────────────────    │
+│   Status Market Detector     Big Acc                                        │
+│   Big Money (Net)            +59.20 Miliar                                  │
+│   Retail (Net)               -56.83 Miliar                                  │
+│   Asing (Net Foreign)        +125.75 Miliar                                 │
+│   Broker Terlibat            44 broker aktif                                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 6. Jika ingin keluar? Tekan Enter dan masukkan `exit` atau `q`.
 
 ---

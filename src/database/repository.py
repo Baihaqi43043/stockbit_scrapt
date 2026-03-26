@@ -191,16 +191,18 @@ def save_flow_tracker(ticker: str, data: dict, price_data: dict = None):
             if price_data:
                 metrics["close_price"] = price_data.get("close_price") or 0
                 metrics["volume"] = price_data.get("volume") or 0
+                metrics["change_pct"] = price_data.get("change_pct", metrics.get("change_pct"))
                 
             cur.execute(
                 """
                 INSERT INTO stock_daily_metrics (
-                    symbol, date, close_price, volume, foreign_net_val, retail_net_val, big_money_net_val, accdist_status
+                    symbol, date, close_price, change_pct, volume, foreign_net_val, retail_net_val, big_money_net_val, accdist_status
                 ) VALUES (
-                    %(symbol)s, %(date)s, %(close_price)s, %(volume)s, %(foreign_net_val)s, %(retail_net_val)s, %(big_money_net_val)s, %(accdist_status)s
+                    %(symbol)s, %(date)s, %(close_price)s, %(change_pct)s, %(volume)s, %(foreign_net_val)s, %(retail_net_val)s, %(big_money_net_val)s, %(accdist_status)s
                 )
                 ON DUPLICATE KEY UPDATE
                     close_price = VALUES(close_price),
+                    change_pct = VALUES(change_pct),
                     volume = VALUES(volume),
                     foreign_net_val = VALUES(foreign_net_val),
                     retail_net_val = VALUES(retail_net_val),
@@ -218,9 +220,9 @@ def save_flow_tracker(ticker: str, data: dict, price_data: dict = None):
             
             insert_query = """
                 INSERT INTO broker_transaction_daily (
-                    symbol, date, broker_code, net_lot, net_val, avg_price
+                    symbol, date, broker_code, net_lot, net_val, avg_price, freq
                 ) VALUES (
-                    %(symbol)s, %(date)s, %(broker_code)s, %(net_lot)s, %(net_val)s, %(avg_price)s
+                    %(symbol)s, %(date)s, %(broker_code)s, %(net_lot)s, %(net_val)s, %(avg_price)s, %(freq)s
                 )
             """
             cur.executemany(insert_query, broker_tx)

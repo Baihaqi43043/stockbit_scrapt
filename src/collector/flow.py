@@ -1,6 +1,6 @@
 import time
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, timedelta
 import httpx
 import config
 from src.auth import get_valid_token
@@ -46,6 +46,7 @@ def fetch_flow_data(ticker: str, target_date: datetime.date = None) -> dict:
             "symbol": ticker,
             "date": today,
             "close_price": 0,
+            "change_pct": None,
             "volume": 0,
             "foreign_net_val": 0,
             "retail_net_val": 0,
@@ -76,17 +77,19 @@ def fetch_flow_data(ticker: str, target_date: datetime.date = None) -> dict:
             # Combine Buy
             for b in bs.get("brokers_buy", []):
                 code = b.get("netbs_broker_code")
-                brokers_dict[code] = brokers_dict.get(code, {"net_lot": 0, "net_val": 0, "avg_price": 0})
+                brokers_dict[code] = brokers_dict.get(code, {"net_lot": 0, "net_val": 0, "avg_price": 0, "freq": 0})
                 brokers_dict[code]["net_lot"] += _parse(b.get("blot") or 0)
                 brokers_dict[code]["net_val"] += _parse(b.get("bval") or 0)
                 brokers_dict[code]["avg_price"] = _parse(b.get("netbs_buy_avg_price")) # Simplification: use buy avg if net buyer
+                brokers_dict[code]["freq"] += _parse(b.get("freq") or 0)
 
             # Combine Sell (stockbit provides negative values for sell lot and val)
             for s in bs.get("brokers_sell", []):
                 code = s.get("netbs_broker_code")
-                brokers_dict[code] = brokers_dict.get(code, {"net_lot": 0, "net_val": 0, "avg_price": 0})
+                brokers_dict[code] = brokers_dict.get(code, {"net_lot": 0, "net_val": 0, "avg_price": 0, "freq": 0})
                 brokers_dict[code]["net_lot"] += _parse(s.get("slot") or 0) # usually negative
                 brokers_dict[code]["net_val"] += _parse(s.get("sval") or 0) # usually negative
+                brokers_dict[code]["freq"] += _parse(s.get("freq") or 0)
                 # if broker was primarily a seller, overwrite avg_price
                 if brokers_dict[code]["net_lot"] < 0:
                     brokers_dict[code]["avg_price"] = _parse(s.get("netbs_sell_avg_price"))
@@ -108,7 +111,8 @@ def fetch_flow_data(ticker: str, target_date: datetime.date = None) -> dict:
                     "broker_code": code,
                     "net_lot": data["net_lot"],
                     "net_val": data["net_val"],
-                    "avg_price": data["avg_price"]
+                    "avg_price": data["avg_price"],
+                    "freq": data["freq"]
                 })
 
             result["metrics"]["retail_net_val"] = retail_val
@@ -129,4 +133,49 @@ def fetch_flow_data(ticker: str, target_date: datetime.date = None) -> dict:
         except Exception as e:
             print(f"[flow] Fetch Foreign Flow Error: {e}")
             
+        time.sleep(config.REQUEST_DELAY)
+        
+        # 3. Fetch Historical Data (Change Pct & Close Price) via Yahoo Finance
+        try:
+            yh_url = f"https://query2.finance.yahoo.com/v8/finance/chart/{ticker}.JK?range=3mo&interval=1d"
+            res_y = httpx.get(yh_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+            ydata = res_y.json().get("chart", {}).get("result", [])
+            
+            if ydata:
+                closes = ydata[0].get("indicators", {}).get("quote", [{}])[0].get("close", [])
+                vols = ydata[0].get("indicators", {}).get("quote", [{}])[0].get("volume", [])
+                timestamps = ydata[0].get("timestamp", [])
+                
+                # Cari index untuk target date
+                target_idx = -1
+                for i, ts in enumerate(timestamps):
+                    dt = datetime.fromtimestamp(ts).date()
+                    if dt == today:
+                        target_idx = i
+                        break
+                    elif dt > today:
+                        # Since it's sorted, the moment we pass today, the previous was our best match if it exists
+                        target_idx = i - 1
+                        break
+                
+                if target_idx == -1 and timestamps:
+                    # If all dates are before today, pick the very last one
+                    target_idx = len(timestamps) - 1
+                    
+                if target_idx >= 1: # We need at least one day before it (target_idx - 1)
+                    last_c = closes[target_idx]
+                    prev_c = closes[target_idx - 1]
+                    
+                    if last_c is not None and prev_c is not None and prev_c > 0:
+                        change_pct = ((last_c - prev_c) / prev_c) * 100
+                        result["metrics"]["close_price"] = last_c
+                        result["metrics"]["change_pct"] = round(change_pct, 2)
+                        
+                        vol = vols[target_idx] if len(vols) > target_idx else None
+                        if vol is not None:
+                            result["metrics"]["volume"] = vol
+                            
+        except Exception as e:
+            print(f"[flow] Fetch YFinance Chart Error: {e}")
+
     return result
