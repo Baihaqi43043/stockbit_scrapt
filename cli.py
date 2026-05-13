@@ -210,7 +210,42 @@ def show_flow_panel(flow: dict):
     tx_count = len(flow.get("broker_tx", []))
     t.add_row("Broker Terlibat", f"[cyan]{tx_count} broker aktif[/cyan]")
 
-    console.print(Panel(t, title="[bold]Flow Tracker Analysis[/bold]", border_style="magenta", padding=(0,1)))
+def show_analysis_panel(fund: dict, flow: dict, price_data: dict):
+    from src.engines.fundamental import calculate_graham_number, get_valuation_verdict
+    from src.engines.flow import calculate_absorption_pct, get_broker_concentration
+    
+    t = Table(box=box.SIMPLE, show_header=True, header_style="bold magenta")
+    t.add_column("Indikator Intelligence", style="bold", width=30)
+    t.add_column("Hasil & Sinyal", width=36)
+    
+    # 1. Valuation
+    eps = fund.get("eps_ttm")
+    bvps = fund.get("bvps")
+    price = price_data.get("last_price") if price_data else fund.get("last_price", 0)
+    
+    if eps and bvps:
+        graham = calculate_graham_number(eps, bvps)
+        if graham:
+            verdict = get_valuation_verdict(price, graham)
+            t.add_row("Graham Number Value", f"Rp {graham:,.0f} [dim]({verdict})[/dim]")
+        
+    # 2. Flow Analysis
+    metrics = flow.get("metrics", {})
+    retail = metrics.get("retail_net_val", 0)
+    big = metrics.get("big_money_net_val", 0)
+    abs_pct = calculate_absorption_pct(retail, big)
+    
+    if abs_pct > 0:
+        color = "green" if abs_pct > 50 else "yellow"
+        t.add_row("Absorption Rate", f"[{color}]{abs_pct}% Ritel diserap BM[/{color}]")
+        
+    # 3. Concentration
+    broker_tx = flow.get("broker_tx", [])
+    if broker_tx:
+        conc = get_broker_concentration(broker_tx)
+        t.add_row("Broker Conc. (TOP 3)", f"{conc['top3']}% dari Total Beli")
+    
+    console.print(Panel(t, title="[bold magenta]◆ INTELLIGENCE ENGINE[/bold magenta]", border_style="magenta", padding=(0,1)))
 
 
 # ─── Collect ─────────────────────────────────────────────────────────────────
@@ -223,6 +258,7 @@ def collect(ticker: str, target_date=None):
     from src.collector.historical import save_historical
     from src.collector.dividend  import fetch_dividend, save_dividend, get_dividend_rows
     from src.collector.news      import fetch_news, save_news, get_news_rows
+    from src.collector.profile   import fetch_company_profile
 
     console.print(f"\n[dim]Mengambil data [bold]{ticker}[/bold]...[/dim]")
 
@@ -231,6 +267,19 @@ def collect(ticker: str, target_date=None):
     hist_rows  = []
     div_rows   = []
     news_rows  = []
+    profile    = {}
+
+    with console.status(f"[cyan]Fetching profile {ticker}...[/cyan]", spinner="dots"):
+        try:
+            profile = fetch_company_profile(ticker)
+            if profile:
+                upsert_ticker(ticker, 
+                              company_name=profile.get("company_name"),
+                              sector=profile.get("sector"),
+                              industry=profile.get("industry"))
+                console.print(f"  [green]✓[/green] Profil & Industri tersimpan: [bold]{profile.get('industry')}[/bold]")
+        except Exception as e:
+            console.print(f"  [yellow]⚠ Profile fetch gagal: {e}[/yellow]")
 
     with console.status(f"[cyan]Fetching fundamental + historical {ticker}...[/cyan]", spinner="dots"):
         try:
@@ -316,6 +365,8 @@ def collect(ticker: str, target_date=None):
     # Show flow panel if flow_data exists in local scope
     if 'flow_data' in locals() and flow_data.get("metrics"):
         show_flow_panel(flow_data)
+        if fund:
+            show_analysis_panel(fund, flow_data, price_data)
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
